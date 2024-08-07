@@ -1,6 +1,6 @@
 import realEstate from "./RealEstate.json";
 
-export const REAL_ESTATE_ADDRESS = process.env.NEXT_PUBLIC_REAL_ESTATE_ADDRESS;
+export const REAL_ESTATE_ADDRESS = "0x9CFaF4a895F63D53D6E9f42dD005806FEBEFBED6";
 export const REAL_ESTATE_ABI = realEstate.abi;
 
 //PINATA KEYS
