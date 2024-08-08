@@ -7,7 +7,7 @@ const PrivacyTwo = () => {
         <div class="row mb_dec--50">
           <div class="offset-lg-2 col-lg-8 ">
             <div class="privacy-wrapper">
-              <h4>Welcome to Nuron Privacy Policy</h4>
+              <h4>Welcome to briXchange Privacy Policy</h4>
               <ol>
                 <li>
                   Where Bitcoin was hailed as the digital answer to currency,

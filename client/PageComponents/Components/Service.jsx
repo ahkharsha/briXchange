@@ -34,7 +34,7 @@ const Service = () => {
                     <a href="#">Set up your wallet</a>
                   </h4>
                   <p class="description">
-                    Powerful features and inclusions, which makes Nuron
+                    Powerful features and inclusions, which makes briXchange
                     standout, easily customizable and scalable.
                   </p>
                   <a class="read-more-button" href="#">

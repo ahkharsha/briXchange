@@ -55,7 +55,7 @@ const ExplorTwo = () => {
                     <a href="author.html" class="avatar" data-tooltip="Takur">
                       <img src="/client/client-1.png" alt="Nft_Profile" />
                     </a>
-                    <a href="author.html" class="Nuron" data-tooltip="Tamim">
+                    <a href="author.html" class="briXchange" data-tooltip="Tamim">
                       <img src="/client/client-2.png" alt="Nft_Profile" />
                     </a>
                     <a href="author.html" class="Tamin" data-tooltip="Sower">
