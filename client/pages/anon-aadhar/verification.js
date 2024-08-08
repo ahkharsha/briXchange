@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { LogInWithAnonAadhaar, useAnonAadhaar } from "@anon-aadhaar/react";
 import Web3 from "web3";
-import { useRouter } from "next/router";
 import {
   Button,
   Container,
@@ -12,11 +11,11 @@ import {
   Box,
 } from "@mui/material";
 
-export default function AadhaarVerification() {
+export default function AadhaarVerification({ onVerified }) {
   const [anonAadhaar] = useAnonAadhaar();
   const [account, setAccount] = useState(null);
-  const router = useRouter();
 
+  // Function to connect to MetaMask
   const connectToMetaMask = async () => {
     if (window.ethereum) {
       try {
@@ -36,10 +35,9 @@ export default function AadhaarVerification() {
 
   useEffect(() => {
     if (anonAadhaar.status === "logged-in") {
-      localStorage.setItem("isVerified", "true");
-      router.push("/home");
+      onVerified();
     }
-  }, [anonAadhaar, router]);
+  }, [anonAadhaar, onVerified]);
 
   return (
     <React.Fragment>
