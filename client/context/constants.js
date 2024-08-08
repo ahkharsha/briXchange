@@ -1,11 +1,11 @@
 import realEstate from "./RealEstate.json";
-
-export const REAL_ESTATE_ADDRESS = "0x9CFaF4a895F63D53D6E9f42dD005806FEBEFBED6";
+require("dotenv").config();
+export const REAL_ESTATE_ADDRESS = "0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1";
 export const REAL_ESTATE_ABI = realEstate.abi;
 
-//PINATA KEYS
-export const PINATA_API_KEY = "API_KEY";
-export const PINATA_SECRECT_KEY = "SECRECT_KEY";
+export const PINATA_API_KEY = "da212708ca61ceb1b91d";
+export const PINATA_SECRET_KEY =
+  "ce9bea71753244b0e67a0b3039e09889b69d15b863d25f3b9110449afae55c05";
 
 //NETWORK
 const networks = {

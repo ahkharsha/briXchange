@@ -1,90 +1,34 @@
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+import AadhaarVerification from "./anon-aadhar/verification";
 
-///INTERNAL IMPORT
-import {
-  Header,
-  Banner,
-  Live,
-  Service,
-  Product,
-  TopSeller,
-  Collection,
-  Footer,
-  Copyright,
-} from "../PageComponents/Components";
-
-///INTERNAL IMPORT
-import { useStateContext } from "../context";
-import { getTopCreators } from "../utils";
-
-const index = () => {
-  const [isLoading, setIsLoading] = useState(false);
-  const [properties, setProperties] = useState([]);
-
-  const { currentAccount, getPropertiesData } = useStateContext();
-
-  //GET DATA
-  const fetchProperty = async () => {
-    setIsLoading(true);
-    const data = await getPropertiesData();
-
-    setProperties(data);
-    setIsLoading(false);
-  };
+const Index = () => {
+  const [status, setStatus] = useState(null); // Start with null to indicate that the status is not yet checked
+  const router = useRouter();
 
   useEffect(() => {
-    fetchProperty();
-  }, []);
+    const storedStatus = localStorage.getItem("status");
+    if (storedStatus === "logged-in") {
+      router.push("/home"); // Redirect to Home page if already logged in
+    } else {
+      setStatus("not-logged-in"); // Set status to "not-logged-in" if not logged in
+    }
+  }, [router]);
 
-  //CATEGORIES
-  const housing = [];
-  const rental = [];
-  const farmhouse = [];
-  const office = [];
-  const commercial = [];
-  const country = [];
-
-  if (!isLoading) {
-    properties?.map((el) => {
-      if (el.category === "country") {
-        country.push(el);
-      } else if (el.category === "Commercial") {
-        commercial.push(el);
-      } else if (el.category === "Office") {
-        office.push(el);
-      } else if (el.category === "Farmhouse") {
-        farmhouse.push(el);
-      } else if (el.category === "Rental") {
-        rental.push(el);
-      } else if (el.category === "Housing") {
-        housing.push(el);
-      }
-    });
+  // Show nothing until the status is checked
+  if (status === null) {
+    return null; // Return null or a loading spinner if you want to show a loading indicator
   }
 
-  // const creators = getTopCreators(properties);
-
   return (
-    <div class="template-color-1 nft-body-connect">
-      <Header />
-      <Banner />
-
-      <Live properties={properties} />
-      <Service />
-      <Product properties={properties} />
-      {/* <TopSeller creators={creators} /> */}
-
-      <Collection
-        housing={housing?.length}
-        rental={rental?.length}
-        farmhouse={farmhouse?.length}
-        office={office?.length}
-      />
-
-      <Footer />
-      <Copyright />
-    </div>
+    <AadhaarVerification
+      onVerified={() => {
+        setStatus("logged-in");
+        localStorage.setItem("status", "logged-in"); // Save status to localStorage
+        router.push("/home"); // Redirect to Home page once verified
+      }}
+    />
   );
 };
 
-export default index;
+export default Index;

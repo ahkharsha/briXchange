@@ -1,17 +1,26 @@
 import React from "react";
+import { AnonAadhaarProvider } from "@anon-aadhaar/react";
 import toast, { Toaster } from "react-hot-toast";
+import { StateContextProvider } from "../context";
+import { useRouter } from "next/router";
 import "../styles/globals.css";
 
-import { StateContextProvider } from "../context";
+// Optionally, you can set test mode or configure artifacts
+const useTestAadhaar = true; // Change to false if using real Aadhaar
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+
+  // Check if the user is verified; if not, redirect to the verification page
+
   return (
-    <>
+    <AnonAadhaarProvider _useTestAadhaar={useTestAadhaar}>
       <StateContextProvider>
         <Component {...pageProps} />
         <Toaster />
       </StateContextProvider>
 
+      {/* Include necessary scripts only */}
       <script src="/js/vendor/jquery.js"></script>
       <script src="/js/vendor/jquery.nice-select.min.js"></script>
       <script src="/js/vendor/jquery-ui.js"></script>
@@ -33,12 +42,11 @@ export default function App({ Component, pageProps }) {
       <script src="/js/vendor/jquery.custom-file-input.js"></script>
       <script src="/js/vendor/savePopup.js"></script>
       <script src="/js/vendor/vanilla.tilt.js"></script>
-
       <script src="/js/main.js"></script>
-
-      <script src="/js/vendor/web3.min.js"></script>
+      {/* Remove or add scripts as needed */}
+      {/* <script src="/js/vendor/web3.min.js"></script>
       <script src="/js/vendor/maralis.js"></script>
-      <script src="/js/vendor/nft.js"></script>
-    </>
+      <script src="/js/vendor/nft.js"></script> */}
+    </AnonAadhaarProvider>
   );
 }
