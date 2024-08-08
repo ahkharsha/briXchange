@@ -14856,10 +14856,22 @@ figcaption {
 ---------------------------*/
 
 .slider-style-3 .wrapper {
-  background: var(--background-color-1);
-  padding: 15px;
-  border-radius: 5px;
+  /* background: var(--background-color-1); */
+  background: white;
+  /* padding: 15px; */
+  width: 100%;
+  border-radius: 10px;
   position: relative;
+  border: 3px solid white; /* Add white border with 3px width */
+}
+
+.img {
+  /* background: var(--background-color-1); */
+  /* padding: 15px; */
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  border: 3px solid white; /* Add white border with 3px width */
 }
 
 .slider-style-3 .wrapper .slider {
@@ -14946,8 +14958,9 @@ figcaption {
 .slider-style-3 .slide-small-wrapper {
   position: relative;
   background: var(--background-color-1);
-  padding: 15px;
-  border-radius: 5px;
+  padding: 1px;
+  border-radius: 10px;
+  border: 3px solid white;
 }
 
 .slider-style-3 .slide-small-wrapper .thumbnail {
@@ -17669,7 +17682,7 @@ button .small-image {
   background: var(--background-color-1);
   padding-bottom: 50px;
   transition: 0.3s;
-  border: 1px solid var(--color-border);
+  border: 3px solid white;
 }
 
 .rn-address .icon {
@@ -18111,9 +18124,10 @@ button .small-image {
 
 .rn-collection-inner-one .collection-wrapper {
   position: relative;
-  padding: 18px;
-  background: var(--background-color-1);
-  border-radius: 5px;
+  padding: 1px;
+  /* background: var(--background-color-1); */
+  border-radius: 10px;
+  border: 3px solid white;
 }
 
 .rn-collection-inner-one .collection-wrapper .collection-big-thumbnail {
