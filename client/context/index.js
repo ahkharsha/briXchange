@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 //INTERNAL  IMPORT
 import {
   PINATA_API_KEY,
-  PINATA_SECRECT_KEY,
+  PINATA_SECRET_KEY,
   REAL_ESTATE_ABI,
   REAL_ESTATE_ADDRESS,
   handleNetworkSwitch,
@@ -498,7 +498,7 @@ export const StateContextProvider = ({ children }) => {
         //STATE VARIABLE
         userBlance,
         PINATA_API_KEY,
-        PINATA_SECRECT_KEY,
+        PINATA_SECRET_KEY,
         loader,
         setLoader,
         notifySuccess,

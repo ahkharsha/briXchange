@@ -28,7 +28,7 @@ const CreateTwo = () => {
     currentAccount,
     createPropertyFunction,
     PINATA_API_KEY,
-    PINATA_SECRECT_KEY,
+    PINATA_SECRET_KEY,
     loader,
     setLoader,
     notifySuccess,
@@ -95,7 +95,7 @@ const CreateTwo = () => {
           data: formData,
           headers: {
             pinata_api_key: PINATA_API_KEY,
-            pinata_secret_api_key: PINATA_SECRECT_KEY,
+            pinata_secret_api_key: PINATA_SECRET_KEY,
             "Content-Type": "multipart/form-data",
           },
         });
