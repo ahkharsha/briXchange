@@ -7,7 +7,7 @@ const NewsTwo = () => {
         <div class="row">
           <div class="col-lg-6">
             <div class="newsletter-wrapper">
-              <h2 class="title">Sign up for The Tide, Nuron's newsletter!</h2>
+              <h2 class="title">Sign up for The Tide, briXchange's newsletter!</h2>
               <p class="discription">
                 Sign up to receive our monthly newsletter, featuring updates
                 from the team, new decentralized applications and NFT projects,

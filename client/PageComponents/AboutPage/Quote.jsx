@@ -13,7 +13,7 @@ const Quote = () => {
                 data-sal-duration="800"
                 data-sal-delay="150"
               >
-                Create, Sell well & Collect your Wonderful NFTs at Nuron Very
+                Create, Sell well & Collect your Wonderful NFTs at briXchange Very
                 Fast
               </h3>
             </div>

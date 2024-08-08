@@ -8,7 +8,7 @@ const RankingTwo = () => {
           <div class="col-12">
             <div class="table-title-area d-flex">
               {/* <i data-feather="briefcase"></i> */}
-              <h3>The top NFTs on Nuron</h3>
+              <h3>The top NFTs on briXchange</h3>
             </div>
 
             <div class="box-table table-responsive">
