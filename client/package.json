@@ -9,6 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@anon-aadhaar/core": "^2.4.0",
+    "@anon-aadhaar/react": "^2.4.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^5.16.6",
     "@next/font": "13.4.1",
     "axios": "^1.4.0",
     "dotenv": "^16.4.5",
@@ -18,6 +23,7 @@
     "react-countdown": "^2.3.5",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
+    "web3": "^4.11.1",
     "web3modal": "^1.9.5"
   }
 }
