@@ -22,6 +22,7 @@
     "react-countdown": "^2.3.5",
     "react-dom": "18.2.0",
     "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.26.0",
     "web3": "^4.11.1",
     "web3modal": "^1.9.5"
   }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LogInWithAnonAadhaar, useAnonAadhaar } from "@anon-aadhaar/react";
 import Web3 from "web3";
+import { useRouter } from "next/router";
 import {
   Button,
   Container,
@@ -9,15 +10,54 @@ import {
   Toolbar,
   CssBaseline,
   Box,
+  ThemeProvider,
+  createTheme,
 } from "@mui/material";
+
+const theme = createTheme({
+  palette: {
+    mode: "dark",
+    primary: {
+      main: "#4CAF50",
+    },
+    secondary: {
+      main: "#FFC107",
+    },
+    background: {
+      default: "rgba(0, 0, 0, 0.9)",
+      paper: "rgba(18, 18, 18, 0.9)",
+    },
+  },
+  typography: {
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontSize: 16,
+    h3: {
+      fontWeight: 700,
+      fontSize: "3rem",
+    },
+    h5: {
+      fontSize: "1.8rem",
+    },
+    h6: {
+      fontWeight: 500,
+      fontSize: "1.3rem",
+    },
+    body1: {
+      fontSize: "1.1rem",
+    },
+    body2: {
+      fontSize: "1rem",
+    },
+  },
+});
 
 export default function AadhaarVerification({ onVerified }) {
   const [anonAadhaar] = useAnonAadhaar();
   const [account, setAccount] = useState(null);
+  const router = useRouter();
 
-  // Function to connect to MetaMask
   const connectToMetaMask = async () => {
-    if (window.ethereum) {
+    if (typeof window.ethereum !== "undefined") {
       try {
         const accounts = await window.ethereum.request({
           method: "eth_requestAccounts",
@@ -33,6 +73,16 @@ export default function AadhaarVerification({ onVerified }) {
     }
   };
 
+  const skipVerification = () => {
+    // Set status to "logged-in"
+    localStorage.setItem("status", "logged-in");
+    // Navigate to home.js
+    router.push({
+      pathname: "/home",
+      query: { status: "logged-in" },
+    });
+  };
+
   useEffect(() => {
     if (anonAadhaar.status === "logged-in") {
       onVerified();
@@ -40,21 +90,33 @@ export default function AadhaarVerification({ onVerified }) {
   }, [anonAadhaar, onVerified]);
 
   return (
-    <React.Fragment>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6">Aadhaar Verification</Typography>
-        </Toolbar>
-      </AppBar>
-      <Box display="flex" flexDirection="column" minHeight="100vh">
-        <Container
-          maxWidth="md"
-          style={{ flex: 1, marginTop: "2rem", marginBottom: "2rem" }}
-        >
-          <Box textAlign="center" marginBottom="2rem">
-            <Typography variant="h3" gutterBottom>
-              Welcome to Aadhaar Verification Portal
+      <Box
+        display="flex"
+        flexDirection="column"
+        minHeight="100vh"
+        bgcolor="background.default"
+        color="text.primary"
+      >
+        <AppBar position="static" color="transparent" elevation={0}>
+          <Toolbar>
+            <Typography variant="h6" sx={{ flexGrow: 1 }}>
+              Aadhaar Verification
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <Container maxWidth="md" sx={{ flex: 1, my: 6 }}>
+          <Box textAlign="center" mb={6}>
+            <Typography
+              variant="h3"
+              gutterBottom
+              sx={{ color: "primary.main" }}
+            >
+              birXchange
+            </Typography>
+            <Typography variant="h5" sx={{ color: "secondary.main", mb: 5 }}>
+              Your Gateway to Smart Real Estate Deals
             </Typography>
             <Typography variant="h6" color="textSecondary">
               Please connect your MetaMask wallet and verify your Aadhaar
@@ -63,47 +125,86 @@ export default function AadhaarVerification({ onVerified }) {
           </Box>
           <Box textAlign="center">
             {!account ? (
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={connectToMetaMask}
-              >
-                Connect MetaMask
-              </Button>
+              <Box>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  size="large"
+                  onClick={connectToMetaMask}
+                  sx={{
+                    py: 2,
+                    px: 6,
+                    fontSize: "1.4rem",
+                    borderRadius: "30px",
+                    boxShadow: "0 4px 6px rgba(76, 175, 80, 0.25)",
+                    "&:hover": {
+                      backgroundColor: "primary.dark",
+                      boxShadow: "0 6px 8px rgba(76, 175, 80, 0.4)",
+                    },
+                    mb: 3,
+                  }}
+                >
+                  Connect MetaMask
+                </Button>
+                <br />
+                <Button
+                  variant="outlined"
+                  color="secondary"
+                  size="large"
+                  onClick={skipVerification}
+                  sx={{
+                    py: 2,
+                    px: 6,
+                    fontSize: "1.4rem",
+                    borderRadius: "30px",
+                    boxShadow: "0 4px 6px rgba(255, 193, 7, 0.25)",
+                    "&:hover": {
+                      backgroundColor: "rgba(255, 193, 7, 0.1)",
+                      boxShadow: "0 6px 8px rgba(255, 193, 7, 0.4)",
+                    },
+                  }}
+                >
+                  Skip Verification
+                </Button>
+              </Box>
             ) : (
-              <div>
-                <Typography variant="h6" gutterBottom>
-                  Connected with MetaMask account: {account}
+              <Box>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  sx={{ color: "primary.light" }}
+                >
+                  Connected with MetaMask account:
+                </Typography>
+                <Typography
+                  variant="body1"
+                  sx={{ wordBreak: "break-all", mb: 4 }}
+                >
+                  {account}
                 </Typography>
                 <LogInWithAnonAadhaar
                   nullifierSeed={1234}
                   fieldsToReveal={["revealAgeAbove18", "revealPinCode"]}
                 />
-                <Typography
-                  variant="h6"
-                  color="textSecondary"
-                  style={{ marginTop: "1rem" }}
-                >
+                <Typography variant="h6" color="textSecondary" sx={{ mt: 3 }}>
                   {anonAadhaar?.status}
                 </Typography>
-              </div>
+              </Box>
             )}
           </Box>
         </Container>
         <Box
           component="footer"
-          py={3}
+          py={4}
           textAlign="center"
-          bgcolor="primary.main"
-          color="white"
+          bgcolor="background.paper"
           mt="auto"
         >
-          <Typography variant="body2">
-            © {new Date().getFullYear()} Aadhaar Verification Portal. All rights
-            reserved.
+          <Typography variant="body1" sx={{ fontSize: "1.2rem" }}>
+            © {new Date().getFullYear()} birXchange. All rights reserved.
           </Typography>
         </Box>
       </Box>
-    </React.Fragment>
+    </ThemeProvider>
   );
 }
