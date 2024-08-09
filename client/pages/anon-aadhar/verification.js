@@ -113,7 +113,7 @@ export default function AadhaarVerification({ onVerified }) {
               gutterBottom
               sx={{ color: "primary.main" }}
             >
-              birXchange
+              briXchange
             </Typography>
             <Typography variant="h5" sx={{ color: "secondary.main", mb: 5 }}>
               Your Gateway to Smart Real Estate Deals
