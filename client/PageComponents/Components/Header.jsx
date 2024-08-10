@@ -55,6 +55,14 @@ const Header = () => {
                       <a href="/contact">Contact</a>
                     </li>
                     <li>
+                      <a
+                        className="live-expo"
+                        href="https://garden-finance-task-harsha.vercel.app/"
+                      >
+                        Swap
+                      </a>
+                    </li>
+                    <li>
                       <a>Other Pages</a>
                       <ul class="submenu">
                         <li>
@@ -103,6 +111,7 @@ const Header = () => {
                             Blogdetail
                           </a>
                         </li>
+
                         <li>
                           <a class="live-expo" href="/error">
                             404
@@ -352,6 +361,14 @@ const Header = () => {
               </li>
               <li>
                 <a href="/contact">Contact</a>
+              </li>
+              <li>
+                <a
+                  className="live-expo"
+                  href="https://garden-finance-task-harsha.vercel.app/"
+                >
+                  Swap
+                </a>
               </li>
             </ul>
           </nav>
