@@ -18,7 +18,7 @@ const theme = createTheme({
   palette: {
     mode: "dark",
     primary: {
-      main: "#4CAF50",
+      main: "#00a3ff",
     },
     secondary: {
       main: "#FFC107",
@@ -201,7 +201,7 @@ export default function AadhaarVerification({ onVerified }) {
           mt="auto"
         >
           <Typography variant="body1" sx={{ fontSize: "1.2rem" }}>
-            © {new Date().getFullYear()} birXchange. All rights reserved.
+            © {new Date().getFullYear()} briXchange. All rights reserved.
           </Typography>
         </Box>
       </Box>
