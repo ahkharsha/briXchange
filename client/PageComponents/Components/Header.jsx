@@ -32,9 +32,6 @@ const Header = () => {
                       <Link href="/reverse">WBTC to BTC</Link>
                     </li>
                     <li>
-                      <Link href="/about">About</Link>
-                    </li>
-                    <li>
                       <a>Explore</a>
                       <ul className="submenu">
                         <li>
@@ -54,9 +51,6 @@ const Header = () => {
                           </a>
                         </li>
                       </ul>
-                    </li>
-                    <li>
-                      <Link href="/contact">Contact</Link>
                     </li>
                     <li>
                       <a>Other Pages</a>
@@ -128,6 +122,12 @@ const Header = () => {
                           </a>
                         </li>
                       </ul>
+                    </li>
+                    <li>
+                      <Link href="/about">About</Link>
+                    </li>
+                    <li>
+                      <Link href="/contact">Contact</Link>
                     </li>
                   </ul>
                 </nav>
@@ -338,11 +338,13 @@ const Header = () => {
               </li>
               <li>
                 <a className="nav-link its_new" href="/swap">
-                  Swap
+                  BTC to WBTC
                 </a>
               </li>
               <li>
-                <a href="/about">About</a>
+                <a className="nav-link its_new" href="/swap">
+                  WBTC to BTC
+                </a>
               </li>
               <li>
                 <a className="nav-link its_new" href="/explor">
@@ -360,8 +362,12 @@ const Header = () => {
                 </a>
               </li>
               <li>
+                <a href="/about">About</a>
+              </li>
+              <li>
                 <a href="/contact">Contact</a>
               </li>
+              
             </ul>
           </nav>
         </div>
