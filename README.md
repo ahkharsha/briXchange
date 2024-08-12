@@ -1,11 +1,12 @@
 # 🏢 **briXchange** - Invest Smart, Own a part
 
-<img src="https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10" alt="logo-white" width="40"/>
-
-
 [![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://bri-x-change.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/briXchange)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
+
+<img src="https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10" alt="logo-white" width="40"/>
+
+---
 
 briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Polygon network and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
 
