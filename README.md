@@ -1,6 +1,6 @@
 # 🏢 **briXchange** - Blockchain-Powered Real Estate Platform
 
-![briXchange Logo](https://i.imgur.com/pvFb0Fp.png)
+![logo-white](https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10)
 
 [![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://bri-x-change.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/briXchange)
