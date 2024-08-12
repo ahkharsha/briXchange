@@ -10,17 +10,24 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 
 ---
 
+## 🚀 **Deployment**
+
+The platform is live and can be accessed at:  
+**🔗 [briXchange Deployment](https://bri-x-change.vercel.app/)**
+
+---
+
 ## 📚 **Table of Contents**
 
 - [🌟 Key Features](#-key-features)
 - [🎯 Project Vision](#-project-vision)
-- [🚀 Deployment](#-deployment)
 - [⚙️ Technologies Used](#️-technologies-used)
 - [🛠 Getting Started](#-getting-started)
 - [📖 Usage](#-usage)
 - [🛤 Roadmap](#-roadmap)
 - [📜 License](#-license)
 - [📞 Contact](#-contact)
+- [🚀 Deployment](#-deployment)
 
 ---
 
@@ -37,13 +44,6 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 ## 🎯 **Project Vision**
 
 Our vision is to democratize real estate investment by leveraging the power of blockchain technology. With **briXchange**, anyone can become a real estate investor, regardless of their financial background, by purchasing fractional ownership of high-quality assets.
-
----
-
-## 🚀 **Deployment**
-
-The platform is live and can be accessed at:  
-**🔗 [briXchange Deployment](https://bri-x-change.vercel.app/)**
 
 ---
 
