@@ -1,6 +1,6 @@
 <img src="https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10" alt="logo-white" width="40"/>
 
-# 🏢 **briXchange** - Blockchain-Powered Real Estate Platform
+# 🏢 **briXchange** - Invest Smart, Own a part
 
 [![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://bri-x-change.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/briXchange)
@@ -54,8 +54,6 @@ Our vision is to democratize real estate investment by leveraging the power of b
 - **Token**: MATIC
 - **Smart Contracts**: Solidity
 - **Frontend**: React.js, CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
 - **Privacy**: Anon Aadhaar SDK
 - **Deployment**: Vercel
 
@@ -155,7 +153,7 @@ For any inquiries or support, feel free to reach out:
 ## 📄 **Documentation**
 
 For more detailed information, please refer to the project whitepaper:  
-**📄 [briXchange Whitepaper](https://drive.google.com/file/d/14j6nxfuVsWSho8GR8xrHiOhRVsVrueeK/view?usp=sharing)**
+**📄 [briXchange Whitepaper](https://drive.google.com/file/d/1jYhzGopz2hODbLunUZUNgVqOvPcr2uZj/view?usp=sharing)**
 
 ---
 
