@@ -1,12 +1,26 @@
 # 🏢 **briXchange** - Blockchain-Powered Real Estate Platform
 
-![briXchange Logo](https://imgur.com/a/TdWZyG9)
+![briXchange Logo](https://i.imgur.com/pvFb0Fp.png)
 
 [![Deployment Status](https://img.shields.io/badge/Deployment-Live-brightgreen)](https://bri-x-change.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/briXchange)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 
 briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Polygon network and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
+
+---
+
+## 📚 **Table of Contents**
+
+- [🌟 Key Features](#-key-features)
+- [🎯 Project Vision](#-project-vision)
+- [🚀 Deployment](#-deployment)
+- [⚙️ Technologies Used](#️-technologies-used)
+- [🛠 Getting Started](#-getting-started)
+- [📖 Usage](#-usage)
+- [🛤 Roadmap](#-roadmap)
+- [📜 License](#-license)
+- [📞 Contact](#-contact)
 
 ---
 
@@ -25,7 +39,6 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 Our vision is to democratize real estate investment by leveraging the power of blockchain technology. With **briXchange**, anyone can become a real estate investor, regardless of their financial background, by purchasing fractional ownership of high-quality assets.
 
 ---
-
 
 ## 🚀 **Deployment**
 
@@ -62,10 +75,7 @@ The platform is live and can be accessed at:
     cd client
     ```
 
-3. **Installing dependancies**
-
-   Create a `.env` file in the root directory and add the following:
-
+3. **Installing dependencies**
    ```bash
     npm i
     ```
@@ -137,16 +147,8 @@ For any inquiries or support, feel free to reach out:
 
 - **Email**: [ahkharsha@gmail.com](mailto:ahkharsha@gmail.com)
 - **LinkedIn**: [Harsha Kumar](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
-- **Project Website**: [briXchange.com]([https://www.brixchange.com](https://bri-x-change.vercel.app/))
+- **Project Website**: [briXchange](https://bri-x-change.vercel.app/)
 
 ---
 
 *Made with ❤️ by the briXchange team.*
-```
-
-### Key Points:
-- **Visuals**: Emojis add a fun and engaging element.
-- **Structure**: The README is organized into clear sections with headers, making it easy to navigate.
-- **Content**: The content is informative, covering all necessary aspects of the project, from setup to contribution guidelines.
-
-You can further customize the logo URL, contact details, and any specific links or images that are relevant to your project. Let me know if you need any more adjustments!
