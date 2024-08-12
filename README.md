@@ -28,6 +28,7 @@ The platform is live and can be accessed at:
 - [📜 License](#-license)
 - [📞 Contact](#-contact)
 - [🚀 Deployment](#-deployment)
+- [📄 Documentation](#-documentation)
 
 ---
 
@@ -148,6 +149,13 @@ For any inquiries or support, feel free to reach out:
 - **Email**: [ahkharsha@gmail.com](mailto:ahkharsha@gmail.com)
 - **LinkedIn**: [Harsha Kumar](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 - **Project Website**: [briXchange](https://bri-x-change.vercel.app/)
+
+---
+
+## 📄 **Documentation**
+
+For more detailed information, please refer to the project whitepaper:  
+**📄 [briXchange Whitepaper](https://drive.google.com/file/d/14j6nxfuVsWSho8GR8xrHiOhRVsVrueeK/view?usp=sharing)**
 
 ---
 
