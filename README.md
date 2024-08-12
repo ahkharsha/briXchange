@@ -138,7 +138,7 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ## 📜 **License**
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ahkharsha/briXchange/blob/main/LICENSE) file for details.
 
 ---
 
