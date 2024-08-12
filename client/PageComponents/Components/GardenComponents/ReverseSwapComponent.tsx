@@ -221,12 +221,14 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
 
 
       <button
-        className={`bg-violet-500 text-white button-${metaMaskIsConnected ? "white" : "black"}`}
-        onClick={handleSwap}
-        disabled={!metaMaskIsConnected}
-      >
-        Swap
-      </button>
+  className={`bg-[#00a3ff] hover:bg-[#0082cc] text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-[#00a3ff] focus:ring-opacity-50 ${
+    metaMaskIsConnected ? "opacity-100" : "opacity-50 cursor-not-allowed"
+  }`}
+  onClick={handleSwap}
+  disabled={!metaMaskIsConnected}
+>
+  Swap
+</button>
     </div>
   );
 };
