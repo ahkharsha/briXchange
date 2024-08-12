@@ -55,7 +55,7 @@ Our vision is to democratize real estate investment by leveraging the power of b
 - **Blockchain**: Polygon Network (Layer 2 solution on Ethereum)
 - **Token**: MATIC
 - **Smart Contracts**: Solidity
-- **Frontend**: React.js, CSS
+- **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
 - **Deployment**: Vercel
 
