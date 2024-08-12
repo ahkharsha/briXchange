@@ -153,7 +153,7 @@ For any inquiries or support, feel free to reach out:
 ## 📄 **Documentation**
 
 For more detailed information, please refer to the project whitepaper:  
-**📄 [briXchange Whitepaper](https://drive.google.com/file/d/1jYhzGopz2hODbLunUZUNgVqOvPcr2uZj/view?usp=sharing)**
+**📄 [briXchange Whitepaper](https://drive.google.com/file/d/1c1I6MS2NfVpDUghftmqSdLmRSih283sn/view?usp=sharing)**
 
 ---
 
