@@ -57,6 +57,7 @@ Our vision is to democratize real estate investment by leveraging the power of b
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
+- **Token Swaps**: Garden SDK
 - **Deployment**: Vercel
 
 ---
