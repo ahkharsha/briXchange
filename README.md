@@ -117,21 +117,21 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **Phase 1: Initial Development**
 
-- [x] Develop core platform functionality
-- [x] Implement property tokenization
-- [x] Integrate Anon Aadhaar SDK for user verification
+- ✅ Develop core platform functionality
+- ✅ Implement property tokenization
+- ✅ Integrate Anon Aadhaar SDK for user verification
 
 ### **Phase 2: Beta Launch**
 
-- [x] Deploy on Polygon Amoy testnet
-- [x] Conduct security audits
-- [x] Launch beta version for selected users
+- ✅ Deploy on Polygon Amoy testnet
+- ✅ Conduct security audits
+- ✅ Launch beta version for selected users
 
 ### **Phase 3: Public Launch**
 
-- [ ] Deploy on Polygon mainnet
-- [ ] Launch marketing campaign
-- [ ] Introduce staking and rewards features
+- ⬜ Deploy on Polygon mainnet
+- ⬜ Launch marketing campaign
+- ⬜ Introduce staking and rewards features
 
 ---
 
