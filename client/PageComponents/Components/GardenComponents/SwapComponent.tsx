@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useMetaMaskStore, useGarden, useSignStore } from "./store";
 import { Assets } from "@gardenfi/orderbook";
 import React from "react";
+
 type AmountState = {
   btcAmount: string | null;
   wbtcAmount: string | null;
@@ -28,11 +29,11 @@ const SwapComponent: React.FC = () => {
   };
 
   return (
-    <div className="swap-component">
+    <div className="swap-component text-white border border-white rounded-lg p-4">
       <WalletConnect />
-      <hr></hr>
+      <hr className="border-white my-4"></hr>
       <SwapAmount amount={amount} changeAmount={changeAmount} />
-      <hr></hr>
+      <hr className="border-white my-4"></hr>
       <Swap amount={amount} changeAmount={changeAmount} />
     </div>
   );
@@ -43,7 +44,7 @@ const WalletConnect: React.FC = () => {
 
   return (
     <div className="swap-component-top-section">
-      <span className="swap-title">Swap</span>
+      <span className="swap-title text-white">Swap</span>
       <MetaMaskButton
         isConnected={metaMaskIsConnected}
         onClick={connectMetaMask}
@@ -61,7 +62,7 @@ const MetaMaskButton: React.FC<MetaMaskButtonProps> = ({
   isConnected,
   onClick,
 }) => {
-  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 connect-metamask button-${
+  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 text-white connect-metamask button-${
     isConnected ? "transparent p-2" : "transparent p-2"
   }`;
   const buttonText = isConnected ? "Connected" : "Connect to MetaMask";
@@ -113,7 +114,7 @@ const InputField: React.FC<InputFieldProps> = ({
   onChange,
 }) => (
   <div>
-    <label htmlFor={id}>{label}</label>
+    <label htmlFor={id} className="text-white">{label}</label>
     <div className="input-component">
       <input
         id={id}
@@ -122,8 +123,9 @@ const InputField: React.FC<InputFieldProps> = ({
         type="number"
         readOnly={readOnly}
         onChange={(e) => onChange && onChange(e.target.value)}
+        className="text-white bg-transparent"
       />
-      <button>{id.toUpperCase()}</button>
+      <button className="text-white">{id.toUpperCase()}</button>
     </div>
   </div>
 );
@@ -137,9 +139,9 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
   amount,
   changeAmount,
 }) => {
-  const { garden, bitcoin,ethereum } = useGarden();
+  const { garden, bitcoin, ethereum } = useGarden();
   const [btcAddress, setBtcAddress] = useState<string>();
-  const [ethAddress,setEthAddress]= useState<string>();
+  const [ethAddress, setEthAddress] = useState<string>();
   const { metaMaskIsConnected } = useMetaMaskStore();
   const { wbtcAmount, btcAmount } = amount;
 
@@ -190,33 +192,33 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
 
   return (
     <div className="swap-component-bottom-section">
-
       <div>
-        <label htmlFor="receive-address">Sender ETH Address</label>
+        <label htmlFor="receive-address" className="text-white">Sender ETH Address</label>
         <div className="input-component">
           <input
             id="receive-address"
             placeholder="Enter ETH Address"
             value={ethAddress ? ethAddress : ""}
             onChange={(e) => setEthAddress(e.target.value)}
+            className="text-white bg-transparent"
           />
         </div>
       </div>
 
-
       <div>
-        <label htmlFor="receive-address">Recepient BTC Address</label>
+        <label htmlFor="receive-address" className="text-white">Recipient BTC Address</label>
         <div className="input-component">
           <input
             id="receive-address"
             placeholder="Enter BTC Address"
             value={btcAddress ? btcAddress : ""}
             onChange={(e) => setBtcAddress(e.target.value)}
+            className="text-white bg-transparent"
           />
         </div>
       </div>
       <button
-        className={`button-${metaMaskIsConnected ? "white" : "black"}`}
+        className={`text-white button-${metaMaskIsConnected ? "white" : "black"}`}
         onClick={handleSwap}
         disabled={!metaMaskIsConnected}
       >
