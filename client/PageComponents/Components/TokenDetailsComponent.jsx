@@ -82,7 +82,7 @@ export default function TokenDetailsComponent() {
                 "/address/" +
                 account.address
               }
-              className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              className="font-semibold leading-6 text-indigo-200 hover:text-indigo-500"
             >
               on Block Explorer
             </a>
