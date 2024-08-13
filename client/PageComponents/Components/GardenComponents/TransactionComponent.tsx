@@ -149,13 +149,13 @@ const OrderComponent: React.FC<Order> = ({ order }) => {
           />
         </span>
       </div>
-      <div className="amount-and-status border border-white">
+      <div className="amount-and-status border border-white rounded">
         <div className="amount-label text-white border border-white">{fromLabel}</div>
         <div className="amount-label text-white border border-white">{toLabel}</div>
         <div className="status-label text-white border border-white">Status</div>
         <div className="amount text-white border border-white">{wbtcAmount}</div>
         <div className="amount text-white border border-white">{btcAmount}</div>
-        <div className="status text-white border border-white">
+        <div className="status text-white">
           {isButton ? (
             <button
               className="button-white"
