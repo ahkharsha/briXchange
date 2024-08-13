@@ -123,7 +123,7 @@ const InputField: React.FC<InputFieldProps> = ({
         type="number"
         readOnly={readOnly}
         onChange={(e) => onChange && onChange(e.target.value)}
-        className="text-white bg-transparent"
+        className="text-white bg-transparent border rounded"
       />
       <button className="text-white">{id.toUpperCase()}</button>
     </div>
@@ -200,7 +200,7 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
             placeholder="Enter ETH Address"
             value={ethAddress ? ethAddress : ""}
             onChange={(e) => setEthAddress(e.target.value)}
-            className="text-white bg-transparent"
+            className="text-white bg-transparent border rounded"
           />
         </div>
       </div>
@@ -213,12 +213,12 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
             placeholder="Enter BTC Address"
             value={btcAddress ? btcAddress : ""}
             onChange={(e) => setBtcAddress(e.target.value)}
-            className="text-white bg-transparent"
+            className="text-white bg-transparent border rounded"
           />
         </div>
       </div>
       <button
-        className={`text-white button-${metaMaskIsConnected ? "white" : "black"}`}
+        className={`text-white button-${metaMaskIsConnected ? "violet" : "violet"}`}
         onClick={handleSwap}
         disabled={!metaMaskIsConnected}
       >

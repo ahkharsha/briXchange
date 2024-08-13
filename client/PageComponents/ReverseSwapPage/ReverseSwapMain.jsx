@@ -1,4 +1,3 @@
-// import SwapComponent from "./SwapComponent";
 import React from "react";
 import TransactionsComponent from "../Components/GardenComponents/TransactionComponent";
 import Balances from "../Components/GardenComponents/Balances";
