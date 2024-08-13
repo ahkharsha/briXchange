@@ -67,14 +67,14 @@ export default function TokenDetailsComponent() {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-[#8F00FF] hover:bg-[#0082cc] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Create Token
               </button>
             </div>
           </form>
 
-          <p className="mt-10 text-center text-md text-gray-500">
+          <p className="mt-10 text-center text-md text-gray-300">
             View your Account{" "}
             <a
               href={

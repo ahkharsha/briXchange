@@ -64,7 +64,7 @@ const MetaMaskButton: React.FC<MetaMaskButtonProps> = ({
   isConnected,
   onClick,
 }) => {
-  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 text-white connect-metamask button-${isConnected ? "transparent p-2" : "transparent p-2"
+  const buttonClass = `ml-2 mr-2 mb-2 bg-purple-500 text-white connect-metamask button-${isConnected ? "transparent p-2" : "transparent p-2"
     }`;
   const buttonText = isConnected ? "Connected" : "Connect to MetaMask";
 
