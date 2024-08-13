@@ -62,9 +62,8 @@ const MetaMaskButton: React.FC<MetaMaskButtonProps> = ({
   isConnected,
   onClick,
 }) => {
-  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 text-white connect-metamask button-${
-    isConnected ? "transparent p-2" : "transparent p-2"
-  }`;
+  const buttonClass = `ml-2 mr-2 mb-2 bg-[#00a3ff] text-white connect-metamask button-${isConnected ? "transparent p-2" : "transparent p-2"
+    }`;
   const buttonText = isConnected ? "Connected" : "Connect to MetaMask";
 
   return (
@@ -123,7 +122,7 @@ const InputField: React.FC<InputFieldProps> = ({
         type="number"
         readOnly={readOnly}
         onChange={(e) => onChange && onChange(e.target.value)}
-        className="text-white bg-transparent"
+        className="text-white bg-transparent border rounded"
       />
       <button className="text-white">{id.toUpperCase()}</button>
     </div>
@@ -200,7 +199,7 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
             placeholder="Enter ETH Address"
             value={ethAddress ? ethAddress : ""}
             onChange={(e) => setEthAddress(e.target.value)}
-            className="text-white bg-transparent"
+            className="text-white bg-transparent border rounded"
           />
         </div>
       </div>
@@ -213,12 +212,14 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
             placeholder="Enter BTC Address"
             value={btcAddress ? btcAddress : ""}
             onChange={(e) => setBtcAddress(e.target.value)}
-            className="text-white bg-transparent"
+            className="text-white bg-transparent border rounded"
           />
         </div>
       </div>
+      
       <button
-        className={`text-white button-${metaMaskIsConnected ? "white" : "black"}`}
+        className={`bg-[#00a3ff] hover:bg-[#0082cc] text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-[#00a3ff] focus:ring-opacity-50 ${metaMaskIsConnected ? "opacity-100" : "opacity-50 cursor-not-allowed"
+          }`}
         onClick={handleSwap}
         disabled={!metaMaskIsConnected}
       >
