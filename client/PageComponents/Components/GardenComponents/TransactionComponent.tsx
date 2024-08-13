@@ -155,7 +155,7 @@ const OrderComponent: React.FC<Order> = ({ order }) => {
         <div className="status-label text-white border border-white">Status</div>
         <div className="amount text-white border border-white">{wbtcAmount}</div>
         <div className="amount text-white border border-white">{btcAmount}</div>
-        <div className="status border border-white">
+        <div className="status text-white border border-white">
           {isButton ? (
             <button
               className="button-white"

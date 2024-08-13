@@ -28,7 +28,7 @@ const SwapMain = () => {
         <div className="pt-12">
           <a
             href="/tokenize"
-            className="rounded-md bg-[#8F00FF] px-6 py-4 text-xxl font-semibold text-white shadow-sm hover:bg-[#008bdb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a3ff]"
+            className="rounded-md bg-[#00a3ff] px-6 py-4 text-xxl font-semibold text-white shadow-sm hover:bg-[#008bdb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#00a3ff]"
           >
             Swap your tokens!
           </a>
