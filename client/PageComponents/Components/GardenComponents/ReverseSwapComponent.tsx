@@ -31,11 +31,11 @@ const ReverseSwapComponent: React.FC = () => {
   };
 
   return (
-    <div className="swap-component">
+    <div className="swap-component text-white border border-white rounded-lg p-4">
       <WalletConnect />
-      <hr style={{marginTop:"0.2rem",marginBottom:'0.2rem'}} />
+      <hr className="border-white my-4"></hr>
       <SwapAmount amount={amount} changeAmount={changeAmount} />
-      <hr style={{marginTop:"1.3rem",marginBottom:'0.2rem'}} />
+      <hr className="border-white my-4"></hr>
       <Swap amount={amount} changeAmount={changeAmount} />
     </div>
   );
@@ -64,9 +64,8 @@ const MetaMaskButton: React.FC<MetaMaskButtonProps> = ({
   isConnected,
   onClick,
 }) => {
-  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 connect-metamask button-${
-    isConnected ? "p-2" : "p-2"
-  }`;
+  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 text-white connect-metamask button-${isConnected ? "transparent p-2" : "transparent p-2"
+    }`;
   const buttonText = isConnected ? "Connected" : "Connect to MetaMask";
 
   return (
@@ -125,8 +124,9 @@ const InputField: React.FC<InputFieldProps> = ({
         type="number"
         readOnly={readOnly}
         onChange={(e) => onChange && onChange(e.target.value)}
+        className="text-white bg-transparent border rounded"
       />
-      <button>{id.toUpperCase()}</button>
+      <button className="text-white">{id.toUpperCase()}</button>
     </div>
   </div>
 );
@@ -140,9 +140,9 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
   amount,
   changeAmount,
 }) => {
-  const { garden, bitcoin,ethereum} = useGarden();
+  const { garden, bitcoin, ethereum } = useGarden();
   const [btcAddress, setBtcAddress] = useState<string>();
-  const [ethAddress,setEthAddress]= useState<string>();
+  const [ethAddress, setEthAddress] = useState<string>();
   const { metaMaskIsConnected } = useMetaMaskStore();
   const { btcAmount, wbtcAmount } = amount;
 
@@ -181,7 +181,7 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
     const sendAmount = Number(btcAmount) * 1e8;
     const receiveAmount = Number(wbtcAmount) * 1e8;
 
-    changeAmount("BTC", "");    
+    changeAmount("BTC", "");
 
     await garden.swap(
       Assets.bitcoin_testnet.BTC,
@@ -194,41 +194,40 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
   return (
     <div className="swap-component-bottom-section">
       <div>
-        <label htmlFor="receive-address">Receive address</label>
+        <label htmlFor="receive-address" className="text-white">Receive address</label>
         <div className="input-component">
           <input
             id="receive-address"
             placeholder="Enter Address to receive WBTC"
-            value={ ethAddress ? ethAddress : ""}
+            value={ethAddress ? ethAddress : ""}
             onChange={(e) => setEthAddress(e.target.value)}
+            className="text-white bg-transparent border rounded"
           />
         </div>
       </div>
 
       <div>
-        <label htmlFor="receive-address">Bitcoin Wallet Address</label>
+        <label htmlFor="receive-address" className="text-white">Bitcoin Wallet Address</label>
         <div className="input-component">
           <input
             id="bitcoin-address"
             placeholder="Bitcoin Wallet Address"
-            value={ btcAddress ? btcAddress : ""}
+            value={btcAddress ? btcAddress : ""}
             disabled
             // onChange={(e) => setEthAddress(e.target.value)}
+            className="text-white bg-transparent border rounded"
           />
         </div>
       </div>
 
-
-
       <button
-  className={`bg-[#00a3ff] hover:bg-[#0082cc] text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-[#00a3ff] focus:ring-opacity-50 ${
-    metaMaskIsConnected ? "opacity-100" : "opacity-50 cursor-not-allowed"
-  }`}
-  onClick={handleSwap}
-  disabled={!metaMaskIsConnected}
->
-  Swap
-</button>
+        className={`bg-[#8F00FF] hover:bg-[#0082cc] text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-[#00a3ff] focus:ring-opacity-50 ${metaMaskIsConnected ? "opacity-100" : "opacity-50 cursor-not-allowed"
+          }`}
+        onClick={handleSwap}
+        disabled={!metaMaskIsConnected}
+      >
+        Swap
+      </button>
     </div>
   );
 };

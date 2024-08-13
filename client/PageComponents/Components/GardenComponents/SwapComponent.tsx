@@ -62,9 +62,8 @@ const MetaMaskButton: React.FC<MetaMaskButtonProps> = ({
   isConnected,
   onClick,
 }) => {
-  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 text-white connect-metamask button-${
-    isConnected ? "transparent p-2" : "transparent p-2"
-  }`;
+  const buttonClass = `ml-2 mr-2 mb-2 bg-violet-500 text-white connect-metamask button-${isConnected ? "transparent p-2" : "transparent p-2"
+    }`;
   const buttonText = isConnected ? "Connected" : "Connect to MetaMask";
 
   return (
@@ -217,8 +216,10 @@ const Swap: React.FC<SwapAndAddressComponentProps> = ({
           />
         </div>
       </div>
+      
       <button
-        className={`text-white button-${metaMaskIsConnected ? "violet" : "violet"}`}
+        className={`bg-[#8F00FF] hover:bg-[#0082cc] text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-[#00a3ff] focus:ring-opacity-50 ${metaMaskIsConnected ? "opacity-100" : "opacity-50 cursor-not-allowed"
+          }`}
         onClick={handleSwap}
         disabled={!metaMaskIsConnected}
       >
