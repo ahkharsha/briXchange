@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useMetaMaskStore, useGarden, useSignStore } from "./store";
 import { Assets } from "@gardenfi/orderbook";
+import { useSwitchChain } from "wagmi";
 import React from "react";
 // import "../../../styles/assets/css/GardenStyles.css";
 
@@ -43,13 +44,19 @@ const ReverseSwapComponent: React.FC = () => {
 
 const WalletConnect: React.FC = () => {
   const { connectMetaMask, metaMaskIsConnected } = useMetaMaskStore();
+  const { switchChain } = useSwitchChain();
+
+  const handleConnect = async () => {
+    await switchChain({ chainId: 11155111 }); //Ethereum Sepolia testnet
+    connectMetaMask();
+  };
 
   return (
     <div className="swap-component-top-section">
-      {/* <span className="swap-title">Swap</span> */}
+      <span className="swap-title text-white">Swap</span>
       <MetaMaskButton
         isConnected={metaMaskIsConnected}
-        onClick={connectMetaMask}
+        onClick={handleConnect}
       />
     </div>
   );
