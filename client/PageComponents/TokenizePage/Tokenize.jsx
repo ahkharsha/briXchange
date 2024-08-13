@@ -119,18 +119,18 @@ const Stepper = () => {
           <div className="step-content">{renderStepContent()}</div>
           <div className="flex items-center justify-center gap-8 mt-8">
             <Button
-              color="purple"
+              // color="purple"
               onClick={handlePrevious}
               disabled={currentStep === 1}
-              className="px-8 py-4 font-bold w-48"
+              className="bg-[#00a3ff] px-8 py-4 font-bold w-48"
             >
               Previous
             </Button>
             <Button
-              color="purple"
+              // color="purple"
               onClick={handleNext}
               disabled={currentStep === stepperOptions.length}
-              className="px-8 py-4 font-bold w-48"
+              className="bg-[#00a3ff] px-8 py-4 font-bold w-48"
             >
               Next
             </Button>

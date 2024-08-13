@@ -48,7 +48,7 @@ export default function ChooseChainComponent() {
                     <h4 className="mt-1 text-center text-md font-bold leading-9 tracking-tight text-gray-900">
                         Change Your Chain Here
                     </h4>
-                    <Button color='purple' className="font-semibold" onClick={() => switchChain({ chainId: Number(selectedChain) })}>Change Chain</Button>
+                    <Button className="bg-[#00a3ff] font-semibold" onClick={() => switchChain({ chainId: Number(selectedChain) })}>Change Chain</Button>
                     {/* <ConnectKitButton /> */}
                 </div>
             )}
