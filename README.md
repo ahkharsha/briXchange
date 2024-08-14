@@ -20,6 +20,15 @@ The platform is live and can be accessed at:
 
 ---
 
+## 📜 **Smart Contract**
+
+The Smart Contract is deployed in the Polygon Amoy Testnet at 0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1<br>
+Visit the link for more details!
+
+**🔗 [briXchange Smart Contract](https://amoy.polygonscan.com/address/0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1)**
+
+---
+
 ## 📚 **Table of Contents**
 
 - [🌟 Key Features](#-key-features)
