@@ -27,8 +27,8 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   sx={{
                     mt: 2,
-                    borderColor: "primary.main",
-                    color: "primary.main",
+                    borderColor: "#00a3ff",
+                    color: "#00a3ff",
                     "&:hover": {
                       backgroundColor: "rgba(0,163,255,0.1)",
                     },
