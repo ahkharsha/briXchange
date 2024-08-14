@@ -106,7 +106,7 @@ const Header = () => {
                             404
                           </a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a className="live-expo" href="/forget">
                             Forget
                           </a>
@@ -120,7 +120,7 @@ const Header = () => {
                           <a className="live-expo" href="/signup">
                             Signup
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </li>
                     <li>

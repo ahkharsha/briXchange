@@ -13,7 +13,7 @@ const Banner = () => {
               data-sal-delay="150"
             >
               Direct Teams. <br />
-              For Your Dadicated Dreams
+              For Your Dedicated Dreams
             </h2>
           </div>
         </div>
@@ -31,63 +31,66 @@ const Banner = () => {
             <div class="h--100">
               <div class="rn-about-card mt_dec--50 widge-wrapper rbt-sticky-top-adjust">
                 <div class="inner">
-                  <h2
-                    class="title"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                    data-sal-delay="150"
-                  >
-                    Why We Do This
-                  </h2>
-                  <p
-                    class="about-disc"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                    data-sal-delay="150"
-                  >
-                    NFTs are virtual tokens that represent ownership of
-                    something inherently distinct and scarce, whether it be a
-                    physical or digital item, such as artwork, a soundtrack, a
-                    collectible, an in-game item or real estate. Unlike regular
-                    cryptocurrencies like bitcoin or fiat money like the U.S.
-                  </p>
-                  <a
-                    href="blog.html"
-                    class="btn btn-primary-alta btn-large sal-animate mt--20"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                    data-sal-delay="150"
-                  >
-                    See Our Blog
-                  </a>
+                  <div className="text-center max-w-3xl mx-auto my-16">
+                    <h2
+                      className="text-5xl font-bold text-white mb-8"
+                      data-sal="slide-up"
+                      data-sal-duration="800"
+                      data-sal-delay="150"
+                    >
+                      Why We Do This
+                    </h2>
+                    <p
+                      className="text-2xl text-white leading-relaxed mb-10"
+                      data-sal="slide-up"
+                      data-sal-duration="800"
+                      data-sal-delay="150"
+                    >
+                      NFTs are virtual tokens that represent ownership of
+                      something inherently distinct and scarce, whether it be a
+                      physical or digital item, such as artwork, a soundtrack, a
+                      collectible, an in-game item or real estate. Unlike
+                      regular cryptocurrencies like bitcoin or fiat money like
+                      the INR.
+                    </p>
+                    <a
+                      href="blog.html"
+                      class="btn btn-primary-alta btn-large sal-animate mt--20"
+                      data-sal="slide-up"
+                      data-sal-duration="800"
+                      data-sal-delay="150"
+                    >
+                      See Our Blog
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="rn-about-card transparent-bg">
-              <div class="inner">
-                <h3
-                  class="title"
-                  data-sal="slide-up"
-                  data-sal-duration="800"
-                  data-sal-delay="150"
-                >
-                  Helping You <br />
-                  Grow In Every Stage.
-                </h3>
-                <p
-                  class="about-disc mb--0"
-                  data-sal="slide-up"
-                  data-sal-duration="800"
-                  data-sal-delay="150"
-                >
-                  NFTs are virtual tokens that represent ownership of something
-                  inherently distinct and scarce, whether it be a physical or
-                  digital item, such as artwork, a soundtrack, a collectible, an
-                  in-game item or real estate. Unlike regular cryptocurrencies
-                  like bitcoin or fiat money like the U.S.
-                </p>
+            <div class="h--100">
+              <div class="rn-about-card mt_dec--50 widge-wrapper rbt-sticky-top-adjust">
+                <div class="inner">
+                  <div className="text-center max-w-3xl mx-auto my-16">
+                    <h2
+                      className="text-5xl font-bold text-white mb-8"
+                      data-sal="slide-up"
+                      data-sal-duration="800"
+                      data-sal-delay="150"
+                    >
+                      Helping You <br /><br />
+                      Grow In Every Stage
+                    </h2>
+                    <p
+                      className="text-2xl text-white leading-relaxed mb-10"
+                      data-sal="slide-up"
+                      data-sal-duration="800"
+                      data-sal-delay="150"
+                    >
+                      At briXchange, we're committed to supporting your growth at every step of your journey. Our platform provides the tools, resources, and community you need to thrive in the dynamic world of NFTs. Whether you're a creator, collector, or enthusiast, we're here to help you navigate and succeed in this exciting digital landscape.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

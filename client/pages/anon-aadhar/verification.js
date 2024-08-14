@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { LogInWithAnonAadhaar, useAnonAadhaar } from "@anon-aadhaar/react";
 import Web3 from "web3";
 import { useRouter } from "next/router";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import {
   Button,
   Container,
@@ -164,7 +165,7 @@ export default function AadhaarVerification({ onVerified }) {
                     },
                   }}
                 >
-                  Skip Verification
+                  Skip Verification (For Testers)
                 </Button>
               </Box>
             ) : (
@@ -203,6 +204,24 @@ export default function AadhaarVerification({ onVerified }) {
           <Typography variant="body1" sx={{ fontSize: "1.2rem" }}>
             © {new Date().getFullYear()} briXchange. All rights reserved.
           </Typography>
+          <Button
+            variant="outlined"
+            color="primary"
+            startIcon={<GitHubIcon />}
+            href="https://github.com/ahkharsha/briXchange"
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              mt: 2,
+              borderColor: "primary.main",
+              color: "primary.main",
+              "&:hover": {
+                backgroundColor: "rgba(0,163,255,0.1)",
+              },
+            }}
+          >
+            briXchange - GitHub
+          </Button>
         </Box>
       </Box>
     </ThemeProvider>

@@ -9,7 +9,7 @@ const BlogDetailTwo = () => {
             <div class="rn-blog-listen">
               <div class="blog-content-top">
                 <h2 class="title">Digital Marketo to Their New Office.</h2>
-                <span class="date">2 Aug, 2022</span>
+                <span class="date">2 Aug, 2024</span>
               </div>
               <div class="bd-thumbnail">
                 <div class="large-img mb--30">
