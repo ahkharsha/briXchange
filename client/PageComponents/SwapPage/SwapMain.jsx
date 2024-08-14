@@ -6,7 +6,7 @@ const SwapMain = () => {
   const account = useAccount();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-transparent text-white px-4 sm:px-6 lg:px-8">
       <h1 className="text-5xl font-extrabold tracking-tight leading-none text-center mb-6 md:text-6xl lg:text-7xl">
         Token Swapper
       </h1>

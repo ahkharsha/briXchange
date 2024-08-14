@@ -262,12 +262,3 @@ contract RealEstate {
         listingPrice = _listingPrice;
     }
 }
-
-
-
-
-
-
-
-
-
