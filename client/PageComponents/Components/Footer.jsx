@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "@mui/material/Button";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Footer = () => {
   return (
@@ -16,6 +18,24 @@ const Footer = () => {
                     <img src="/logo/logo-dark.png" alt="nft-logo" />
                   </a>
                 </div>
+                <Button
+                  variant="outlined"
+                  color="primary"
+                  startIcon={<GitHubIcon />}
+                  href="https://github.com/ahkharsha/briXchange"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    mt: 2,
+                    borderColor: "#00a3ff",
+                    color: "#00a3ff",
+                    "&:hover": {
+                      backgroundColor: "rgba(0,163,255,0.1)",
+                    },
+                  }}
+                >
+                  briXchange - GitHub
+                </Button>
                 <p class="rn-footer-describe">
                   Created with the collaboration of over 60 of the world's best
                   briXchange Artists.

@@ -26,8 +26,7 @@ const Action = () => {
                       data-sal-delay="150"
                     >
                       The NFTs is a one-trick pony that climbed the recent
-                      years. The growth of NFTs is tremendous, and according to
-                      Pymnts.com, the total sales volume{" "}
+                      years. The growth of NFTs is tremendous.{" "}
                     </p>
                     <div
                       class="callto-action-btn-wrapper"
@@ -39,7 +38,7 @@ const Action = () => {
                         Create
                       </a>
                       <a
-                        href="contact.html"
+                        href="/contact"
                         class="btn btn-primary-alta btn-large"
                       >
                         Contact Us

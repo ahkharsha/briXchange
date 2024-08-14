@@ -22,13 +22,18 @@ export const checkIfImage = (url, callback) => {
 };
 
 export const getTopCreators = (creators) => {
+  if (!Array.isArray(creators) || creators.length === 0) {
+    return [];
+  }
+
   const finalCreators = [];
 
   const finalResults = creators.reduce((index, currentValue) => {
-    (index[currentValue.owner] = index[currentValue.owner] || []).push(
-      currentValue
-    );
-
+    if (currentValue && currentValue.owner) {
+      (index[currentValue.owner] = index[currentValue.owner] || []).push(
+        currentValue
+      );
+    }
     return index;
   }, {});
 

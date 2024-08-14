@@ -367,7 +367,7 @@ const ProductTwo = () => {
                 <a href="product-details.html">
                   <img src="/portfolio/portfolio-04.jpg" alt="NFT_portfolio" />
                 </a>
-                <div class="countdown" data-date="2022-11-09">
+                <div class="countdown" data-date="2024-11-09">
                   <div class="countdown-container days">
                     <span class="countdown-value">87</span>
                     <span class="countdown-heading">D's</span>
@@ -671,7 +671,7 @@ const ProductTwo = () => {
                 <a href="product-details.html">
                   <img src="/portfolio/portfolio-07.jpg" alt="NFT_portfolio" />
                 </a>
-                <div class="countdown" data-date="2022-12-09">
+                <div class="countdown" data-date="2024-12-09">
                   <div class="countdown-container days">
                     <span class="countdown-value">35</span>
                     <span class="countdown-heading">D's</span>

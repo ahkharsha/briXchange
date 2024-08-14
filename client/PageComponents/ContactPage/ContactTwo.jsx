@@ -11,11 +11,14 @@ const ContactTwo = () => {
             data-sal-delay="150"
             data-sal-duration="800"
           >
-            <div class="section-title mb--30 text-center">
-              <h2 class="title">Quick Contact Address</h2>
-              <p class="description">
-                There are many variations of passages of Lorem Ipsum available,{" "}
-                <br /> but the majority have suffered alteration.
+            <div className="text-center max-w-2xl mx-auto my-12">
+              <h2 className="text-5xl font-bold text-white mb-6">
+                Quick Contact Address
+              </h2>
+              <p className="text-2xl text-white leading-relaxed">
+                No.18, Rajaram Plaza, Avadi, Chennai
+                <br />
+                Tamil Nadu, Chennai - 600072
               </p>
             </div>
           </div>
@@ -48,10 +51,10 @@ const ContactTwo = () => {
               <div class="inner">
                 <h4 class="title">Contact Phone Number</h4>
                 <p>
-                  <a href="tel:+444555666777">+444 555 666 777</a>
+                  <a href="tel:+444555666777">+91 79239 47581</a>
                 </p>
                 <p>
-                  <a href="tel:+222222222333">+222 222 222 333</a>
+                  <a href="tel:+222222222333">+91 98657 25172</a>
                 </p>
               </div>
             </div>
@@ -83,10 +86,10 @@ const ContactTwo = () => {
               <div class="inner">
                 <h4 class="title">Our Email Address</h4>
                 <p>
-                  <a href="mailto:admin@gmail.com">admin@gmail.com</a>
+                  <a href="mailto:admin@gmail.com">ahkharsha@gmail.com</a>
                 </p>
                 <p>
-                  <a href="mailto:example@gmail.com">example@gmail.com</a>
+                  <a href="mailto:example@gmail.com">n.sarancs@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -118,8 +121,7 @@ const ContactTwo = () => {
               <div class="inner">
                 <h4 class="title">Our Location</h4>
                 <p>
-                  5678 Bangla Main Road, cities 580 <br /> GBnagla, example
-                  54786
+                  Avadi, Chennai <br /> Tamil Nadu, Chennai - 600072
                 </p>
               </div>
             </div>

@@ -8,7 +8,7 @@ const Copyright = () => {
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-sm-12">
               <div class="copyright-left">
-                <span>©2022 briXchange, Inc. All rights reserved.</span>
+                <span>©2024 briXchange, Inc. All rights reserved.</span>
                 <ul class="privacy">
                   <li>
                     <a href="terms-condition.html">Terms</a>
