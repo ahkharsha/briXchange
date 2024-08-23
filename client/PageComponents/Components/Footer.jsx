@@ -11,10 +11,10 @@ const Footer = () => {
             <div class="widget-content-wrapper">
               <div class="footer-left">
                 <div class="logo-thumbnail logo-custom-css">
-                  <a class="logo-light" href="index.html">
+                  <a class="logo-light" href="/">
                     <img src="/logo/logo-white.png" alt="nft-logo" />
                   </a>
-                  <a class="logo-dark" href="index.html">
+                  <a class="logo-dark" href="/">
                     <img src="/logo/logo-dark.png" alt="nft-logo" />
                   </a>
                 </div>

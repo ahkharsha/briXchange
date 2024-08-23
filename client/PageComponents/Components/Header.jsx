@@ -26,10 +26,10 @@ const Header = () => {
                       <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="/swap">BTC to WBTC</Link>
+                      <Link href="https://bri-x-chang.vercel.app/swap">BTC to WBTC</Link>
                     </li>
                     <li>
-                      <Link href="/reverse">WBTC to BTC</Link>
+                      <Link href="https://bri-x-chang.vercel.app/reverse">WBTC to BTC</Link>
                     </li>
                     <li>
                       <a>Explore</a>
