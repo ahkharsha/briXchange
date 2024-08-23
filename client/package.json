@@ -24,7 +24,7 @@
     "axios": "^1.4.0",
     "connectkit": "^1.8.2",
     "dotenv": "^16.4.5",
-    "ethers": "^6.13.2",
+    "ethers": "^5.7.2",
     "flowbite-react": "^0.10.1",
     "next": "13.4.1",
     "react": "18.2.0",
