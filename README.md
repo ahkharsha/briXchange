@@ -165,8 +165,8 @@ For any inquiries or support, feel free to reach out:
 
 ## 📄 **Documentation**
 
-For more detailed information, please refer to the project whitepaper:  
-**📄 [briXchange Whitepaper](https://drive.google.com/file/d/1c1I6MS2NfVpDUghftmqSdLmRSih283sn/view?usp=sharing)**
+For more detailed information, please refer to the project whitepaper, deck, litepaper, and tokenomics:  
+**📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
 
 ---
 
