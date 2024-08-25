@@ -1,13 +1,13 @@
 import realEstate from "./RealEstate.json";
 require("dotenv").config();
-export const REAL_ESTATE_ADDRESS = "0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1";
+
+export const REAL_ESTATE_ADDRESS = "0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30";
 export const REAL_ESTATE_ABI = realEstate.abi;
 
 export const PINATA_API_KEY = "da212708ca61ceb1b91d";
-export const PINATA_SECRET_KEY =
-  "ce9bea71753244b0e67a0b3039e09889b69d15b863d25f3b9110449afae55c05";
+export const PINATA_SECRET_KEY = "ce9bea71753244b0e67a0b3039e09889b69d15b863d25f3b9110449afae55c05";
 
-//NETWORK
+// NETWORK
 const networks = {
   polygon_amoy: {
     chainId: `0x${Number(80002).toString(16)}`,
@@ -53,6 +53,17 @@ const networks = {
     rpcUrls: ["https://rpc.ankr.com/bsc"],
     blockExplorerUrls: ["https://bscscan.com"],
   },
+  bsc_testnet: {
+    chainId: `0x${Number(97).toString(16)}`,
+    chainName: "BNB Smart Chain Testnet",
+    nativeCurrency: {
+      name: "Binance Chain Native Token",
+      symbol: "BNB",
+      decimals: 18,
+    },
+    rpcUrls: ["https://bsc-testnet-rpc.publicnode.com"],
+    blockExplorerUrls: ["https://testnet.bscscan.com"],
+  },
   base_mainnet: {
     chainId: `0x${Number(8453).toString(16)}`,
     chainName: "Base Mainnet",
@@ -86,6 +97,17 @@ const networks = {
     rpcUrls: ["http://127.0.0.1:8545/"],
     blockExplorerUrls: ["https://bscscan.com"],
   },
+  open_campus_codex: {
+    chainId: `0x${Number(656476).toString(16)}`,
+    chainName: "Open Campus Codex",
+    nativeCurrency: {
+      name: "EDU",
+      symbol: "EDU",
+      decimals: 18,
+    },
+    rpcUrls: ["https://rpc.open-campus-codex.gelato.digital"],
+    blockExplorerUrls: ["https://opencampus-codex.blockscout.com"],
+  },
 };
 
 const changeNetwork = async ({ networkName }) => {
@@ -103,10 +125,11 @@ const changeNetwork = async ({ networkName }) => {
     console.log(err.message);
   }
 };
-export const ACTIVE_NETWORK = "polygon_amoy";
+
+export const ACTIVE_NETWORK = "bsc_testnet";
 
 export const handleNetworkSwitch = async () => {
-  const networkName = "polygon_amoy";
+  const networkName = "bsc_testnet";
   const network = await changeNetwork({ networkName });
   return networkName;
 };
