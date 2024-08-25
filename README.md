@@ -16,13 +16,12 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 
 The platform is live and can be accessed at:  
 <br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br><br>
-**🔗 [briXchange Mainnet (Under Development)](https://brixchange-bnb-mainnet.vercel.app/)**
 
 ---
 
 ## 📜 **Smart Contract**
 
-The Smart Contract is deployed on the BNB Smart Chain Testnet at 0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30.  
+The Smart Contract is deployed on the BNB Smart Chain Testnet at [0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30).  
 Visit the link for more details!
 
 **🔗 [briXchange Smart Contract](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30)**
@@ -165,8 +164,8 @@ For any inquiries or support, feel free to reach out:
 
 ## 📄 **Documentation**
 
-For more detailed information, please refer to the project whitepaper:  
-**📄 [briXchange Whitepaper](https://drive.google.com/file/d/1c1I6MS2NfVpDUghftmqSdLmRSih283sn/view?usp=sharing)**
+For more detailed information, please refer to the project whitepaper, deck, litepaper, and tokenomics:  
+**📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
 
 ---
 
