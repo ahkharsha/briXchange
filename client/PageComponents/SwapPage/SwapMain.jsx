@@ -11,7 +11,7 @@ const SwapMain = () => {
         briXchange Swap
       </h1>
       <p className="max-w-3xl text-center mb-10 text-xl font-normal lg:text-2xl leading-relaxed">
-        Swap your tokens effortlessly on the Polygon blockchain using TBNB. 
+        Swap your tokens effortlessly on the Polygon blockchain using tBNB. 
         Our platform enables secure and transparent transactions for your real estate investments.
       </p>
       <p className="max-w-3xl text-center mb-10 text-xl font-normal lg:text-2xl leading-relaxed">
@@ -25,7 +25,7 @@ const SwapMain = () => {
         to seamlessly swap your wBTC to BTC and vice-versa, allowing you to invest confidently in our tokenized real estate assets.
       </p>
       <p className="max-w-3xl text-center text-white mb-10 text-xl font-normal lg:text-3xl leading-relaxed">
-        TBNB swaps are coming soon to further enhance your investment options and provide greater flexibility.
+        tBNB swaps are coming soon to further enhance your investment options and provide greater flexibility.
       </p>
       <ConnectKitButton />
       {account.isConnected && (
