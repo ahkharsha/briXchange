@@ -22,7 +22,7 @@ The platform is live and can be accessed at:
 ## 📜 **Smart Contract**
 
 The Smart Contract is deployed on the BNB Smart Chain Testnet at [0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30).  
-Visit the link for more details!
+Visit the link below to view it in explorer!
 
 **🔗 [briXchange Smart Contract](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30)**
 
