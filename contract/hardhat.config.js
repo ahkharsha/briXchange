@@ -2,6 +2,8 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+
 module.exports = {
   solidity: {
     version: "0.8.18",
@@ -13,12 +15,9 @@ module.exports = {
     },
   },
   networks: {
-    // hardhat: {
-    //   chainId: 31337,
-    // },
-    polygon_amoy: {
-      url: process.env.NEXT_PUBLIC_POLYGON_AMOY_RPC,
-      accounts: [`0x${process.env.NEXT_PUBLIC_PRIVATE_KEY}`],
+    bnbTestnet: {
+      url: `https://bsc-testnet-rpc.publicnode.com`,
+      accounts: [`0x${PRIVATE_KEY}`],
     },
   },
 };
