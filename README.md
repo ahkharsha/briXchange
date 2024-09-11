@@ -15,13 +15,17 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 ## 🚀 **Deployment**
 
 The platform is live and can be accessed at:  
-<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br><br>
+<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br>
+Polygon Amoy Testnet
+<br>
 **🔗 [briXchange Mainnet (Under Development)](https://brixchange-polygon-mainnet.vercel.app/)**
+Polygon Mainnet
 
 ---
 
 ## 📜 **Smart Contract**
 
+Amoy-Testnet
 The Smart Contract is deployed in the Polygon Amoy Testnet at 0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1<br>
 Visit the link for more details!
 
