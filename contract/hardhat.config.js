@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config();
+
+const PRIVATE_KEY = "788ed93b169bc440019d1adbde09d1d8658e08fee24f37dd2de18d4ca0279cce";
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -16,9 +17,9 @@ module.exports = {
     // hardhat: {
     //   chainId: 31337,
     // },
-    polygon_amoy: {
-      url: process.env.NEXT_PUBLIC_POLYGON_AMOY_RPC,
-      accounts: [`0x${process.env.NEXT_PUBLIC_PRIVATE_KEY}`],
+    etherlink_testnet: {
+      url: "https://etherlink-testnet.rpc.thirdweb.com/",
+      accounts: [`0x${PRIVATE_KEY}`],
     },
   },
 };
