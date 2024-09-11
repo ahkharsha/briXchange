@@ -15,10 +15,16 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 ## 📜 **Smart Contract**
 
 Etherlink-Testnet
-The Smart Contract is deployed in the Etherlink Testnet at **[0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**<br>
+The Smart Contract is deployed in the Etherlink Testnet at **[0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)** <br>
 Visit the link for more details!
 
 **🔗 [briXchange Smart Contract](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/79d30a88-dcdb-41ba-91d9-06a5e303d58a" alt="contract-ss" width="800"/>
+
+<br><br><br>
 
 ---
 
