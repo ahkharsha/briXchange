@@ -28,12 +28,10 @@ For more detailed information, please refer to the **project pitchdeck, whitepap
 ## 🚀 **Deployment**
 
 The platform is live and can be accessed at:  
-<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br>
-Etherlink Testnet
+<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)** - Etherlink Testnet
 <br>
 <br>
-**🔗 [briXchange Etherlink Mainnet (Under Development)](https://brixchange-etherlink-mainnet.vercel.app/)**<br>
-Etherlink Mainnet
+**🔗 [briXchange Etherlink Mainnet (Under Development)](https://brixchange-etherlink-mainnet.vercel.app/)** - Etherlink Mainnet
 
 ---
 
