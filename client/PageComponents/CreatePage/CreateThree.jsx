@@ -41,7 +41,7 @@ const CreateThree = ({ data, handleSubmit }) => {
                 </div>
                 <div class="collection-deg">
                   <h6 class="title">{data.propertyTitle}</h6>
-                  <span class="items">{data.price} MATIC</span>
+                  <span class="items">{data.price} XTZ</span>
                 </div>
                 <div class="col-lg-12"></div>
               </div>

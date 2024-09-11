@@ -65,7 +65,7 @@ const Live = ({ properties }) => {
                   </a>
                   <span class="latest-bid">Category: {property.category}</span>
                   <div class="bid-react-area">
-                    <div class="last-bid">{property.price} MATIC</div>
+                    <div class="last-bid">{property.price} XTZ</div>
                     <div class="react-area">
                       <svg
                         viewBox="0 0 17 16"
