@@ -40,7 +40,9 @@ Visit the link for more details!
 
 ## 🔗 **YouTube Demo**
 
-**🔗 [![Watch the video](https://img.youtube.com/vi/x3bnczfm9m4/maxresdefault.jpg)](https://youtu.be/x3bnczfm9m4)**
+Click here to watch the video - [https://www.youtube.com/watch?v=x3bnczfm9m4](https://www.youtube.com/watch?v=x3bnczfm9m4) <br>
+
+**[![Watch the video](https://img.youtube.com/vi/x3bnczfm9m4/maxresdefault.jpg)](https://youtu.be/x3bnczfm9m4)**
 
 ---
 
