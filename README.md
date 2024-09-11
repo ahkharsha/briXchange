@@ -12,6 +12,16 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 
 ---
 
+## 🚀 **Deployment**
+
+The platform is live and can be accessed at:  
+<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)** - Etherlink Testnet
+<br>
+<br>
+**🔗 [briXchange Etherlink Mainnet (Under Development) - brixchange-etherlink-mainnet.vercel.app](https://brixchange-etherlink-mainnet.vercel.app/)** - Etherlink Mainnet
+
+---
+
 ## 📜 **Smart Contract**
 
 Etherlink-Testnet
@@ -28,19 +38,15 @@ Visit the link for more details!
 
 ---
 
-## 📜 **DevFolio Submission**
+## 🔗 **YouTube Demo**
 
-**🔗 [briXchange DevFolio - Built at Crypto Shield Hackathon](https://devfolio.co/projects/brixchange-ff36)**
+**🔗 [![Watch the video](https://img.youtube.com/vi/x3bnczfm9m4/maxresdefault.jpg)](https://youtu.be/x3bnczfm9m4)**
 
 ---
 
-## 🚀 **Deployment**
+## 📜 **DevFolio Submission**
 
-The platform is live and can be accessed at:  
-<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)** - Etherlink Testnet
-<br>
-<br>
-**🔗 [briXchange Etherlink Mainnet (Under Development) - brixchange-etherlink-mainnet.vercel.app](https://brixchange-etherlink-mainnet.vercel.app/)** - Etherlink Mainnet
+**🔗 [briXchange DevFolio - Built at Crypto Shield Hackathon](https://devfolio.co/projects/brixchange-ff36)**
 
 ---
 
