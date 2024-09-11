@@ -136,7 +136,7 @@ const CreateTwo = () => {
           <div class="row g-5 ">
             <div class="col-lg-3 offset-1 ml_md--0 ml_sm--0">
               <div class="collection-single-wized banner">
-                <label class="title required">Property image</label>
+                <label class="title required">EC Certificate</label>
 
                 <div class="create-collection-input logo-image">
                   <div class="logo-c-image logo">
