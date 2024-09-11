@@ -8,23 +8,28 @@
 
 ---
 
-briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the BNB Smart Chain Testnet and tBNB tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
+briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Polygon network and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
 
 ---
 
 ## 🚀 **Deployment**
 
 The platform is live and can be accessed at:  
-<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br><br>
+<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br>
+Polygon Amoy Testnet
+<br>
+**🔗 [briXchange Mainnet (Under Development)](https://brixchange-polygon-mainnet.vercel.app/)**
+Polygon Mainnet
 
 ---
 
 ## 📜 **Smart Contract**
 
-The Smart Contract is deployed on the BNB Smart Chain Testnet at [0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30).  
-Visit the link below to view it in explorer!
+Amoy-Testnet
+The Smart Contract is deployed in the Polygon Amoy Testnet at 0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1<br>
+Visit the link for more details!
 
-**🔗 [briXchange Smart Contract](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30)**
+**🔗 [briXchange Smart Contract](https://amoy.polygonscan.com/address/0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1)**
 
 ---
 
@@ -61,8 +66,8 @@ Our vision is to democratize real estate investment by leveraging the power of b
 
 ## ⚙️ **Technologies Used**
 
-- **Blockchain**: BNB Smart Chain Testnet
-- **Token**: tBNB
+- **Blockchain**: Polygon Network (Layer 2 solution on Ethereum)
+- **Token**: MATIC
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
@@ -114,12 +119,12 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **3. Conduct Transactions**
 
-- Buy and sell fractional property tokens using tBNB on the BNB Smart Chain Testnet.
+- Buy and sell fractional property tokens using MATIC on the Polygon blockchain.
 - Enjoy low transaction fees and fast confirmation times.
 
 ### **4. Staking and Rewards**
 
-- Stake tBNB tokens to earn rewards and access premium features.
+- Stake MATIC tokens to earn rewards and access premium features.
 - Participate in platform governance by voting on proposals.
 
 ---
@@ -134,13 +139,13 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **Phase 2: Beta Launch**
 
-- ✅ Deploy on BNB Smart Chain Testnet
+- ✅ Deploy on Polygon Amoy testnet
 - ✅ Conduct security audits
 - ✅ Launch beta version for selected users
 
 ### **Phase 3: Public Launch**
 
-- ⬜ Deploy on BNB Smart Chain Mainnet
+- ⬜ Deploy on Polygon mainnet
 - ⬜ Launch marketing campaign
 - ⬜ Introduce staking and rewards features
 

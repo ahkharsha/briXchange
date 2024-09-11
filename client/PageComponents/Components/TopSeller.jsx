@@ -38,7 +38,7 @@ const TopSeller = ({ creators }) => {
                     <a href="author.html">
                       <h6 class="name">{seller.owner.slice(0, 10)}..</h6>
                     </a>
-                    <span class="count-number">{seller.total} tBNB </span>
+                    <span class="count-number">{seller.total} MATIC </span>
                   </div>
                 </div>
               </div>

@@ -373,7 +373,7 @@ const DetailTwo = ({
                           <div class="pd-property-inner">
                             <h6 class="pd-property-title">
                               {" "}
-                              Price 18 Decimal Points: {property?.price} tBNB
+                              Price 18 Decimal Points: {property?.price} Matic
                             </h6>
                           </div>
                           <div class="pd-property-inner">
@@ -465,7 +465,7 @@ const DetailTwo = ({
                         <div class="countdown-container days">
                           <span class="countdown-value">Price: </span>
                           <span class="countdown-heading">
-                            {property?.price} tBNB
+                            {property?.price} MATIC
                           </span>
                         </div>
                         <div class="countdown-container hours">
@@ -498,7 +498,7 @@ const DetailTwo = ({
                       <>
                         {address?.toLowerCase() == property?.owner.toLowerCase()
                           ? "You can't buy your owned Property"
-                          : `${property?.price} tBNB Buy Property`}
+                          : `${property?.price} MATIC Buy Property`}
                       </>
                     )}
                   </button>
