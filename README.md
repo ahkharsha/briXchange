@@ -8,7 +8,14 @@
 
 ---
 
-briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the Polygon network and MATIC tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
+briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the **Etherlink** network and **XTZ** tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
+
+---
+
+## 📄 **Documentation**
+
+For more detailed information, please refer to the **project pitchdeck, whitepaper, litepaper, and tokenomics**:  
+**📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
 
 ---
 
@@ -16,20 +23,21 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 
 The platform is live and can be accessed at:  
 <br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br>
-Polygon Amoy Testnet
+Etherlink Testnet
 <br>
-**🔗 [briXchange Mainnet (Under Development)](https://brixchange-polygon-mainnet.vercel.app/)**
-Polygon Mainnet
+<br>
+**🔗 [briXchange Etherlink Mainnet (Under Development)](https://brixchange-etherlink-mainnet.vercel.app/)**<br>
+Etherlink Mainnet
 
 ---
 
 ## 📜 **Smart Contract**
 
 Amoy-Testnet
-The Smart Contract is deployed in the Polygon Amoy Testnet at 0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1<br>
+The Smart Contract is deployed in the Etherlink Testnet at **[0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**<br>
 Visit the link for more details!
 
-**🔗 [briXchange Smart Contract](https://amoy.polygonscan.com/address/0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1)**
+**🔗 [briXchange Smart Contract](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**
 
 ---
 
@@ -66,8 +74,8 @@ Our vision is to democratize real estate investment by leveraging the power of b
 
 ## ⚙️ **Technologies Used**
 
-- **Blockchain**: Polygon Network (Layer 2 solution on Ethereum)
-- **Token**: MATIC
+- **Blockchain**: Etherlink (Layer 2 solution on Tezos Smart Rollup Technology)
+- **Token**: XTZ
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
@@ -119,12 +127,12 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **3. Conduct Transactions**
 
-- Buy and sell fractional property tokens using MATIC on the Polygon blockchain.
+- Buy and sell fractional property tokens using XTZ on the Etherlink blockchain.
 - Enjoy low transaction fees and fast confirmation times.
 
-### **4. Staking and Rewards**
+### **4. Staking and Rewards (Under Development)**
 
-- Stake MATIC tokens to earn rewards and access premium features.
+- Stake RTZ tokens to earn rewards and access premium features.
 - Participate in platform governance by voting on proposals.
 
 ---
@@ -139,13 +147,13 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **Phase 2: Beta Launch**
 
-- ✅ Deploy on Polygon Amoy testnet
+- ✅ Deploy on Etherlink Testnet
 - ✅ Conduct security audits
 - ✅ Launch beta version for selected users
 
 ### **Phase 3: Public Launch**
 
-- ⬜ Deploy on Polygon mainnet
+- ⬜ Deploy on Etherlink Mainnet
 - ⬜ Launch marketing campaign
 - ⬜ Introduce staking and rewards features
 
@@ -167,11 +175,5 @@ For any inquiries or support, feel free to reach out:
 
 ---
 
-## 📄 **Documentation**
-
-For more detailed information, please refer to the project whitepaper, deck, litepaper, and tokenomics:  
-**📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
-
----
 
 *Made with ❤️ by the briXchange team.*
