@@ -12,6 +12,26 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 
 ---
 
+## 📜 **Smart Contract**
+
+Etherlink-Testnet
+The Smart Contract is deployed in the Etherlink Testnet at **[0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**<br>
+Visit the link for more details!
+
+**🔗 [briXchange Smart Contract](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**
+
+---
+
+## 🚀 **Deployment**
+
+The platform is live and can be accessed at:  
+<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)** - Etherlink Testnet
+<br>
+<br>
+**🔗 [briXchange Etherlink Mainnet (Under Development) - brixchange-etherlink-mainnet.vercel.app](https://brixchange-etherlink-mainnet.vercel.app/)** - Etherlink Mainnet
+
+---
+
 ## 📄 **Documentation**
 
 For more detailed information, please refer to the **project pitchdeck, whitepaper, litepaper, and tokenomics**:  
@@ -23,27 +43,9 @@ For more detailed information, please refer to the **project pitchdeck, whitepap
 <br>
 **📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
 
----
-
-## 🚀 **Deployment**
-
-The platform is live and can be accessed at:  
-<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)** - Etherlink Testnet
-<br>
-<br>
-**🔗 [briXchange Etherlink Mainnet (Under Development)](https://brixchange-etherlink-mainnet.vercel.app/)** - Etherlink Mainnet
 
 ---
 
-## 📜 **Smart Contract**
-
-Amoy-Testnet
-The Smart Contract is deployed in the Etherlink Testnet at **[0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**<br>
-Visit the link for more details!
-
-**🔗 [briXchange Smart Contract](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**
-
----
 
 ## 📚 **Table of Contents**
 
