@@ -22,6 +22,12 @@ Visit the link for more details!
 
 ---
 
+## 📜 **DevFolio Submission**
+
+**🔗 [briXchange DevFolio - Built at Crypto Shield Hackathon](https://devfolio.co/projects/brixchange-ff36)**
+
+---
+
 ## 🚀 **Deployment**
 
 The platform is live and can be accessed at:  
