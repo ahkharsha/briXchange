@@ -15,6 +15,12 @@ briXchange is an innovative blockchain-based platform designed to revolutionize 
 ## 📄 **Documentation**
 
 For more detailed information, please refer to the **project pitchdeck, whitepaper, litepaper, and tokenomics**:  
+
+[Pitchdeck](https://drive.google.com/file/d/1VAQUSuuKqMMK01jwv3jUKEWC0qsEUKNR/view?usp=sharing)<br>
+[Litepaper](https://drive.google.com/file/d/1jot9hNDuA4BOZP5vDMAyHtguYRD2SKiP/view?usp=sharing)<br>
+[Whitepaper](https://drive.google.com/file/d/1BlmG-d0tA036IITjoOs-APx66B-S2gcg/view?usp=sharing)<br>
+[Tokenomics](https://drive.google.com/file/d/1CbxFrisIgHQvRJ9mShibUv6lDQfg_90c/view?usp=sharing)<br>
+<br>
 **📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
 
 ---
