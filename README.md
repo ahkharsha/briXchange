@@ -8,64 +8,25 @@
 
 ---
 
-briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the **Etherlink** network and **XTZ** tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
+briXchange is an innovative blockchain-based platform designed to revolutionize real estate transactions by leveraging the power of the BNB Smart Chain Testnet and tBNB tokens. Our platform enables users to tokenize, trade, and invest in real estate assets securely and transparently.
 
 ---
 
 ## 🚀 **Deployment**
 
 The platform is live and can be accessed at:  
-<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)** - Etherlink Testnet
-<br>
-<br>
-**🔗 [briXchange Etherlink Mainnet (Under Development) - brixchange-etherlink-mainnet.vercel.app](https://brixchange-etherlink-mainnet.vercel.app/)** - Etherlink Mainnet
+<br>**🔗 [briXchange Testnet (Deployed) - bri-x-change.vercel.app](https://bri-x-change.vercel.app/)**<br><br>
 
 ---
 
 ## 📜 **Smart Contract**
 
-Etherlink-Testnet
-The Smart Contract is deployed in the Etherlink Testnet at **[0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)** <br>
-Visit the link for more details!
+The Smart Contract is deployed on the BNB Smart Chain Testnet at [0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30).  
+Visit the link below to view it in explorer!
 
-**🔗 [briXchange Smart Contract](https://testnet.explorer.etherlink.com/address/0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb)**
-
-<br>
-
-<img src="https://github.com/user-attachments/assets/79d30a88-dcdb-41ba-91d9-06a5e303d58a" alt="contract-ss" width="800"/>
-
-<br><br><br>
+**🔗 [briXchange Smart Contract](https://testnet.bscscan.com/address/0x61Cccc4CdB233a3a8eE63D5C4399FC9956f12A30)**
 
 ---
-
-## 🔗 **YouTube Demo**
-
-Click here to watch the video - [https://www.youtube.com/watch?v=x3bnczfm9m4](https://www.youtube.com/watch?v=x3bnczfm9m4) <br>
-
-**[![Watch the video](https://img.youtube.com/vi/x3bnczfm9m4/maxresdefault.jpg)](https://youtu.be/x3bnczfm9m4)**
-
----
-
-## 📜 **DevFolio Submission**
-
-**🔗 [briXchange DevFolio - Built at Crypto Shield Hackathon](https://devfolio.co/projects/brixchange-ff36)**
-
----
-
-## 📄 **Documentation**
-
-For more detailed information, please refer to the **project pitchdeck, whitepaper, litepaper, and tokenomics**:  
-
-[Pitchdeck](https://drive.google.com/file/d/1VAQUSuuKqMMK01jwv3jUKEWC0qsEUKNR/view?usp=sharing)<br>
-[Litepaper](https://drive.google.com/file/d/1jot9hNDuA4BOZP5vDMAyHtguYRD2SKiP/view?usp=sharing)<br>
-[Whitepaper](https://drive.google.com/file/d/1BlmG-d0tA036IITjoOs-APx66B-S2gcg/view?usp=sharing)<br>
-[Tokenomics](https://drive.google.com/file/d/1CbxFrisIgHQvRJ9mShibUv6lDQfg_90c/view?usp=sharing)<br>
-<br>
-**📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
-
-
----
-
 
 ## 📚 **Table of Contents**
 
@@ -100,8 +61,8 @@ Our vision is to democratize real estate investment by leveraging the power of b
 
 ## ⚙️ **Technologies Used**
 
-- **Blockchain**: Etherlink (Layer 2 solution on Tezos Smart Rollup Technology)
-- **Token**: XTZ
+- **Blockchain**: BNB Smart Chain Testnet
+- **Token**: tBNB
 - **Smart Contracts**: Solidity
 - **Frontend**: Next.js, CSS
 - **Privacy**: Anon Aadhaar SDK
@@ -153,12 +114,12 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **3. Conduct Transactions**
 
-- Buy and sell fractional property tokens using XTZ on the Etherlink blockchain.
+- Buy and sell fractional property tokens using tBNB on the BNB Smart Chain Testnet.
 - Enjoy low transaction fees and fast confirmation times.
 
-### **4. Staking and Rewards (Under Development)**
+### **4. Staking and Rewards**
 
-- Stake RTZ tokens to earn rewards and access premium features.
+- Stake tBNB tokens to earn rewards and access premium features.
 - Participate in platform governance by voting on proposals.
 
 ---
@@ -173,13 +134,13 @@ Your application will be up and running at `http://localhost:3000` 🚀
 
 ### **Phase 2: Beta Launch**
 
-- ✅ Deploy on Etherlink Testnet
+- ✅ Deploy on BNB Smart Chain Testnet
 - ✅ Conduct security audits
 - ✅ Launch beta version for selected users
 
 ### **Phase 3: Public Launch**
 
-- ⬜ Deploy on Etherlink Mainnet
+- ⬜ Deploy on BNB Smart Chain Mainnet
 - ⬜ Launch marketing campaign
 - ⬜ Introduce staking and rewards features
 
@@ -201,5 +162,11 @@ For any inquiries or support, feel free to reach out:
 
 ---
 
+## 📄 **Documentation**
+
+For more detailed information, please refer to the project whitepaper, deck, litepaper, and tokenomics:  
+**📄 [briXchange Documents](https://drive.google.com/drive/folders/1yjy5MCUNjCpX58mM0tuD94YpDKY7AYUJ?usp=sharing)**
+
+---
 
 *Made with ❤️ by the briXchange team.*
