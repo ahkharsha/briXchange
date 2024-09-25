@@ -4,7 +4,10 @@
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/ahkharsha/briXchange)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue)](https://www.linkedin.com/in/harsha-kumar-a-271a76203/)
 
-<img src="https://github.com/user-attachments/assets/1c74e33d-9a29-4314-8abe-df38c1c63f10" alt="logo-white" width="40"/>
+<img src="https://github.com/user-attachments/assets/14fc40a3-7a71-41e9-84c2-2bdc56b03d31" alt="logo-white" width="120" height="120"/>
+
+
+
 
 ---
 
