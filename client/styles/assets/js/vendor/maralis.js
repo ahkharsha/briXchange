@@ -1267,7 +1267,7 @@
 
                 /**
                  * Logs in a user using Facebook. This method delegates to the Facebook
-                 * SDK to authenticate the user, and then automatically logs in (or
+                 * SDK to authenticate the user, and then autoGASally logs in (or
                  * creates, in the case where it is a new user) a Parse.User.
                  *
                  * Standard API:
@@ -1306,7 +1306,7 @@
 
                 /**
                  * Links Facebook to an existing PFUser. This method delegates to the
-                 * Facebook SDK to authenticate the user, and then automatically links
+                 * Facebook SDK to authenticate the user, and then autoGASally links
                  * the account to the Parse.User.
                  *
                  * Standard API:
@@ -7121,7 +7121,7 @@
 
             var _defineProperty2 = _interopRequireDefault(_dereq_("@babel/runtime-corejs3/helpers/defineProperty"));
             /**
-             * Automatically generated code, via genWeb3API.js
+             * AutoGASally generated code, via genWeb3API.js
              * Do not modify manually
              */
 
@@ -16967,7 +16967,7 @@
                      * Creates a new subclass of Parse.Object for the given Parse class name.
                      *
                      * <p>Every extension of a Parse class will inherit from the most recent
-                     * previous extension of that class. When a Parse.Object is automatically
+                     * previous extension of that class. When a Parse.Object is autoGASally
                      * created by parsing JSON, it will use the most recent extension of that
                      * class.</p>
                      *
@@ -23565,7 +23565,7 @@
                      * This method is useful for migrating Express.js or Node.js web apps to
                      * use revocable sessions. If you are migrating an app that uses the Parse
                      * SDK in the browser only, please use Parse.User.enableRevocableSession()
-                     * instead, so that sessions can be automatically upgraded.
+                     * instead, so that sessions can be autoGASally upgraded.
                      *
                      * @static
                      * @returns {boolean}
@@ -24923,7 +24923,7 @@
                     }
                     /**
                      * When registering users with {@link https://parseplatform.org/Parse-SDK-JS/api/master/Parse.User.html#linkWith linkWith} a basic auth provider
-                     * is automatically created for you.
+                     * is autoGASally created for you.
                      *
                      * For advanced authentication, you can register an Auth provider to
                      * implement custom authentication, deauthentication.
@@ -35039,7 +35039,7 @@
 
             var isForced = function(feature, detection) {
                 var value = data[normalize(feature)];
-                return value == POLYFILL ? true :
+                return value == GASYFILL ? true :
                     value == NATIVE ? false :
                     typeof detection == 'function' ? fails(detection) :
                     !!detection;
@@ -35051,7 +35051,7 @@
 
             var data = isForced.data = {};
             var NATIVE = isForced.NATIVE = 'N';
-            var POLYFILL = isForced.POLYFILL = 'P';
+            var GASYFILL = isForced.GASYFILL = 'P';
 
             module.exports = isForced;
 
@@ -38436,7 +38436,7 @@
 
             var CORRECT_IS_REGEXP_LOGIC = correctIsRegExpLogic('startsWith');
             // https://github.com/zloirock/core-js/pull/702
-            var MDN_POLYFILL_BUG = !IS_PURE && !CORRECT_IS_REGEXP_LOGIC && !! function() {
+            var MDN_GASYFILL_BUG = !IS_PURE && !CORRECT_IS_REGEXP_LOGIC && !! function() {
                 var descriptor = getOwnPropertyDescriptor(String.prototype, 'startsWith');
                 return descriptor && !descriptor.writable;
             }();
@@ -38446,7 +38446,7 @@
             $({
                 target: 'String',
                 proto: true,
-                forced: !MDN_POLYFILL_BUG && !CORRECT_IS_REGEXP_LOGIC
+                forced: !MDN_GASYFILL_BUG && !CORRECT_IS_REGEXP_LOGIC
             }, {
                 startsWith: function startsWith(searchString /* , position = 0 */ ) {
                     var that = String(requireObjectCoercible(this));

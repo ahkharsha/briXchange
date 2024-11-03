@@ -17,6 +17,8 @@ const categories = [
   "Country",
 ];
 
+const states = ["Tamil Nadu", "Telangana", "Maharashtra", "Karnataka"];
+
 const CreateTwo = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [properties, setProperties] = useState([]);
@@ -42,6 +44,7 @@ const CreateTwo = () => {
     price: "",
     images: "",
     propertyAddress: "",
+    state: "",
   });
 
   const handleFormFieldChange = (fileName, e) => {
@@ -59,6 +62,7 @@ const CreateTwo = () => {
       price,
       images,
       propertyAddress,
+      state,
     } = form;
 
     console.log(
@@ -67,7 +71,8 @@ const CreateTwo = () => {
       category,
       price,
       images,
-      propertyAddress
+      propertyAddress,
+      state
     );
 
     if (images || propertyTitle || price || category || description) {
@@ -136,7 +141,7 @@ const CreateTwo = () => {
           <div class="row g-5 ">
             <div class="col-lg-3 offset-1 ml_md--0 ml_sm--0">
               <div class="collection-single-wized banner">
-                <label class="title required">Property image</label>
+                <label class="title required">EC Certificate</label>
 
                 <div class="create-collection-input logo-image">
                   <div class="logo-c-image logo">
@@ -237,7 +242,7 @@ const CreateTwo = () => {
                           class="name"
                           type="text"
                           required
-                          placeholder="propertyTitle"
+                          placeholder="Title"
                           onChange={(e) =>
                             handleFormFieldChange("propertyTitle", e)
                           }
@@ -245,23 +250,7 @@ const CreateTwo = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div class="col-lg-6">
-                    <div class="collection-single-wized">
-                      <label for="url" class="title">
-                        Image
-                      </label>
-                      <div class="create-collection-input">
-                        <input
-                          id="url"
-                          class="url"
-                          type="text"
-                          required
-                          placeholder="images"
-                          onChange={(e) => handleFormFieldChange("images", e)}
-                        />
-                      </div>
-                    </div>
-                  </div> */}
+
                   <div class="col-lg-12">
                     <div class="collection-single-wized">
                       <label class="title">Category</label>
@@ -292,13 +281,13 @@ const CreateTwo = () => {
                   <div class="col-lg-12">
                     <div class="collection-single-wized">
                       <label for="description" class="title">
-                        Description
+                        Property Address
                       </label>
                       <div class="create-collection-input">
                         <textarea
                           id="description"
                           class="text-area"
-                          placeholder="description"
+                          placeholder="Address"
                           onChange={(e) =>
                             handleFormFieldChange("description", e)
                           }
@@ -306,33 +295,35 @@ const CreateTwo = () => {
                       </div>
                     </div>
                   </div>
+
                   <div class="col-lg-6">
                     <div class="collection-single-wized">
                       <label for="earning" class="title">
-                        Price
+                        Property Price
                       </label>
                       <div class="create-collection-input">
                         <input
                           id="earning"
                           class="url"
                           type="number"
-                          placeholder="price"
+                          placeholder="Price"
                           onChange={(e) => handleFormFieldChange("price", e)}
                         />
                       </div>
                     </div>
                   </div>
+
                   <div class="col-lg-6">
                     <div class="collection-single-wized">
                       <label for="wallet" class="title">
-                        Property Address
+                        Property State
                       </label>
                       <div class="create-collection-input">
                         <input
                           id="wallet"
                           class="url"
                           type="text"
-                          placeholder="propertyAddress"
+                          placeholder="State"
                           onChange={(e) =>
                             handleFormFieldChange("propertyAddress", e)
                           }
@@ -340,36 +331,9 @@ const CreateTwo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-12">
-                    <div class="nuron-information mb--30">
-                      <div class="single-notice-setting">
-                        <div class="input">
-                          <input
-                            type="checkbox"
-                            id="themeSwitch"
-                            name="theme-switch"
-                            class="theme-switch__input"
-                          />
-                          <label for="themeSwitch" class="theme-switch__label">
-                            <span></span>
-                          </label>
-                        </div>
-                        <div class="content-text">
-                          <p>Explicit & sensitive content</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
                   <div class="col-lg-12">
                     <div class="button-wrapper">
-                      <a
-                        href="#"
-                        class="btn btn-primary btn-large mr--30"
-                        data-bs-toggle="modal"
-                        data-bs-target="#collectionModal"
-                      >
-                        Preview
-                      </a>
                       <a
                         onClick={() => handleSubmit()}
                         class="btn btn-primary-alta btn-large"

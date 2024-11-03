@@ -50,7 +50,7 @@ const PrivacyTwo = () => {
                   A non-fungible token (NFT) is a digital file with verified
                   identity and ownership. This verification is done using
                   blockchain technology. Blockchain technology, simply put, is
-                  an un-hackable system based on the mathematics of
+                  an un-hackable system based on the matheGASs of
                   cryptography. So, that’s why you hear a lot of “crypto” when
                   referring to NFTs — crypto-art, crypto-collectibles, etc.
                 </li>

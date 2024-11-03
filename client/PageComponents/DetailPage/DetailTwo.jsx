@@ -1,6 +1,7 @@
 import React from "react";
 import Countdown from "react-countdown";
 import { Loader } from "../../PageComponents/Components";
+
 const DetailTwo = ({
   property,
   parsedReviews,
@@ -14,15 +15,30 @@ const DetailTwo = ({
 }) => {
   const timeComment = new Date(new Date() - Math.random() * 1e12);
 
+  const getRedirectUrl = (propertyAddress) => {
+    switch (propertyAddress) {
+      case "Tamil Nadu":
+        return "https://tnreginet.gov.in/portal/";
+      case "Maharashtra":
+        return "https://freesearchigrservice.maharashtra.gov.in/";
+      case "Goa":
+        return "https://goaonline.gov.in/Appln/UIL/propertyregister";
+      case "Telangana":
+        return "https://registration.telangana.gov.in/ec.htm";
+      default:
+        return "#";
+    }
+  };
+
   return (
-    <div class="product-details-area rn-section-gapTop">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-7 col-md-12 col-sm-12">
-            <div class="product-tab-wrapper rbt-sticky-top-adjust">
-              <div class="pd-tab-inner">
+    <div className="product-details-area rn-section-gapTop">
+      <div className="container">
+        <div className="row g-5">
+          <div className="col-lg-7 col-md-12 col-sm-12">
+            <div className="product-tab-wrapper rbt-sticky-top-adjust">
+              <div className="pd-tab-inner">
                 <div
-                  class="nav rn-pd-nav rn-pd-rt-content nav-pills"
+                  className="nav rn-pd-nav rn-pd-rt-content nav-pills"
                   id="v-pills-tab"
                   role="tablist"
                   aria-orientation="vertical"
@@ -80,18 +96,20 @@ const DetailTwo = ({
                   </button>
                 </div>
 
-                <div class="tab-content rn-pd-content" id="v-pills-tabContent">
+                <div className="tab-content rn-pd-content" id="v-pills-tabContent">
                   <div
-                    class="tab-pane fade show active"
+                    className="tab-pane fade show active"
                     id="v-pills-home"
                     role="tabpanel"
                     aria-labelledby="v-pills-home-tab"
                   >
-                    <div class="rn-pd-thumbnail">
+                    <div className="rn-pd-thumbnail">
                       {isLoading ? (
                         <Loader />
                       ) : (
-                        <img src={property?.image} alt="Nft_Profile" />
+                        <a href={getRedirectUrl(property?.address)} target="_blank" rel="noopener noreferrer">
+                          <img src={property?.image} alt="Nft_Profile" />
+                        </a>
                       )}
                     </div>
                   </div>
@@ -184,7 +202,7 @@ const DetailTwo = ({
               </div>
 
               <h6 class="title-name">
-                #{property?.productID} Portal , Info bellow
+                #{property?.productID} Portal , Info below
               </h6>
               <div class="catagory-collection">
                 <div class="catagory">
@@ -357,23 +375,36 @@ const DetailTwo = ({
                             </span>
                           </div>
                           <div class="pd-property-inner">
-                            <h6 class="pd-property-title"> Description</h6>
+                            <h6 class="pd-property-title"> Property Address</h6>
 
                             <span class="color-white value">
                               {property?.description}
                             </span>
                           </div>
                           <div class="pd-property-inner">
-                            <h6 class="pd-property-title"> Address</h6>
+                            <h6 class="pd-property-title"> Property State</h6>
 
                             <span class="color-white value">
                               {property?.address}
                             </span>
                           </div>
+                          <div className="pd-property-inner">
+                            <h6 className="pd-property-title"> EC Verification Link</h6>
+                            <span className="color-white value">
+                              <a 
+                                href={getRedirectUrl(property?.address)} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="color-white"
+                              >
+                                {getRedirectUrl(property?.address)}
+                              </a>
+                            </span>
+                          </div>
                           <div class="pd-property-inner">
                             <h6 class="pd-property-title">
                               {" "}
-                              Price 18 Decimal Points: {property?.price} tBNB
+                              Price: {property?.price} AIA
                             </h6>
                           </div>
                           <div class="pd-property-inner">
@@ -465,7 +496,7 @@ const DetailTwo = ({
                         <div class="countdown-container days">
                           <span class="countdown-value">Price: </span>
                           <span class="countdown-heading">
-                            {property?.price} tBNB
+                            {property?.price} AIA
                           </span>
                         </div>
                         <div class="countdown-container hours">
@@ -498,7 +529,7 @@ const DetailTwo = ({
                       <>
                         {address?.toLowerCase() == property?.owner.toLowerCase()
                           ? "You can't buy your owned Property"
-                          : `${property?.price} tBNB Buy Property`}
+                          : `${property?.price} AIA Buy Property`}
                       </>
                     )}
                   </button>

@@ -22,7 +22,7 @@ const Footer = () => {
                   variant="outlined"
                   color="primary"
                   startIcon={<GitHubIcon />}
-                  href="https://github.com/ahkharsha/briXchange"
+                  href="https://github.com/dishadaniellol/briXchange"
                   target="_blank"
                   rel="noopener noreferrer"
                   sx={{

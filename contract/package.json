@@ -5,6 +5,7 @@
     "hardhat": "^2.18.1"
   },
   "dependencies": {
-    "@thirdweb-dev/cli": "^0.14.12"
+    "@thirdweb-dev/cli": "^0.14.12",
+    "dotenv": "^16.4.5"
   }
 }
