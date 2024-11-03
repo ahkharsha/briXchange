@@ -29,7 +29,7 @@ const DetailSeven = ({
               <h6 class="title">Price</h6>
               <textarea
                 name="message"
-                placeholder={`Old Price: ${property?.price} AIA`}
+                placeholder={`Old Price: ${property?.price} MATIC`}
                 onChange={(e) =>
                   setUpdatePropertyPrice({
                     ...updatePropertyPrice,

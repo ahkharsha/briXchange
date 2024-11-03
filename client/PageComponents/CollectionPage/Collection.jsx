@@ -38,7 +38,7 @@ const Collection = ({ category, isLoading }) => {
                     </div>
                     <div class="collection-deg">
                       <h6 class="title">{el.title}</h6>
-                      <span class="items">{el.price} AIA</span>
+                      <span class="items">{el.price} MATIC</span>
                     </div>
                   </div>
                 </a>
