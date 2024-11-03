@@ -1,7 +1,7 @@
 import realEstate from "./RealEstate.json";
 require("dotenv").config();
 
-export const REAL_ESTATE_ADDRESS = "0x73641118e93Be1Ed8cE170E17E564Fa76b43a8fb";
+export const REAL_ESTATE_ADDRESS = "0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1";
 export const REAL_ESTATE_ABI = realEstate.abi;
 
 export const PINATA_API_KEY = "da212708ca61ceb1b91d";
