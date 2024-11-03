@@ -25,7 +25,7 @@ Polygon Mainnet
 ## 📜 **Smart Contract**
 
 Amoy-Testnet
-The Smart Contract is deployed in the Polygon Amoy Testnet at 0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1<br>
+The Smart Contract is deployed in the Polygon Amoy Testnet at [0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1](https://amoy.polygonscan.com/address/0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1)<br><br>
 Visit the link for more details!
 
 **🔗 [briXchange Smart Contract](https://amoy.polygonscan.com/address/0xb06cbBeAE36EdBa7a14D733E8aE922a29630c7C1)**
